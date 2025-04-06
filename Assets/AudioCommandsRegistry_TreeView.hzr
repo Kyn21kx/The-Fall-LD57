@@ -1,0 +1,4 @@
+TriggersTreeView:
+  - Name: RootNode
+    Children:
+      []

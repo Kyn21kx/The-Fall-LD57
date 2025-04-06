@@ -1,0 +1,613 @@
+Scene: Main
+Entities:
+  - Entity: 68151642004201412
+    TagComponent:
+      Tag: GameManager
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ScriptID: 2948213706
+      ScriptName: GameManager
+      Fields:
+        - ID: 3879001167
+          Name: player
+          Type: Entity
+          Value: 13650339194316899898
+        - ID: 1130277195
+          Name: playerBrightnessEntity
+          Type: Entity
+          Value: 6917476609853878424
+  - Entity: 1212966624780602724
+    TagComponent:
+      Tag: Bone.006
+    Parent: 6134607173504613518
+    Children:
+      - Handle: 10865137330495811574
+    TransformComponent:
+      Position: [-1.19209176e-09, 0.0257598944, -1.70530253e-15]
+      Rotation: [-1.29922569e-07, 3.55271368e-15, 0.420211047]
+      Scale: [0.99999994, 0.99999994, 1]
+    MeshTagComponent:
+      EntityID: 8129967560409256440
+  - Entity: 2296520907164420515
+    TagComponent:
+      Tag: ParticleSystem
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [2.77507639, 4.97080278, -1.8774544]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ScriptID: 4065613306
+      ScriptName: ParticleSystem
+      Fields:
+        - ID: 1215095166
+          Name: particle
+          Type: Prefab
+          Value: 13156719642392940320
+        - ID: 3616997371
+          Name: particleLifetime
+          Type: Float
+          Value: 0
+        - ID: 2657857831
+          Name: spawnRadius
+          Type: Float
+          Value: 5
+        - ID: 2047788643
+          Name: particleForce
+          Type: Vector3
+          Value: [0, 0]
+        - ID: 4231019786
+          Name: minParticeScale
+          Type: Vector3
+          Value: [0, 0]
+        - ID: 3676622707
+          Name: particleCount
+          Type: Int
+          Value: 0
+        - ID: 2854473782
+          Name: maxParticleScale
+          Type: Vector3
+          Value: [0, 0]
+  - Entity: 2595514805943042811
+    TagComponent:
+      Tag: Armature
+    Parent: 14786098104033786202
+    Children:
+      - Handle: 2963945116809832754
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [-1.57079649, 0, 0]
+      Scale: [1, 0.99999994, 0.99999994]
+    MeshTagComponent:
+      EntityID: 7703790981844369413
+  - Entity: 2963945116809832754
+    TagComponent:
+      Tag: Bone
+    Parent: 2595514805943042811
+    Children:
+      - Handle: 4026996060388731396
+      - Handle: 6134607173504613518
+      - Handle: 16317766278501918586
+      - Handle: 13108665968505373784
+      - Handle: 4677782297016005214
+      - Handle: 4476019719583079647
+      - Handle: 9573546338039592153
+    TransformComponent:
+      Position: [0, 0, -0.0477817208]
+      Rotation: [1.57079649, -0, 2.38418579e-07]
+      Scale: [1, 0.99999994, 0.99999994]
+    MeshTagComponent:
+      EntityID: 17748680508404421003
+  - Entity: 3322505699212156728
+    TagComponent:
+      Tag: Bone.009
+    Parent: 16317766278501918586
+    Children:
+      - Handle: 6163644078430435295
+    TransformComponent:
+      Position: [-1.19209242e-09, 0.0180996358, -1.06581408e-16]
+      Rotation: [0, -0, 0.896947801]
+      Scale: [0.999999881, 0.999999881, 1]
+    MeshTagComponent:
+      EntityID: 16067542300079692134
+  - Entity: 4026996060388731396
+    TagComponent:
+      Tag: Bone.003
+    Parent: 2963945116809832754
+    Children:
+      - Handle: 15836679402004377115
+    TransformComponent:
+      Position: [0, 0.0180665012, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    MeshTagComponent:
+      EntityID: 12091490713133390290
+  - Entity: 4376497608686961619
+    TagComponent:
+      Tag: Bone.014
+    Parent: 4677782297016005214
+    Children:
+      - Handle: 15910295057397995121
+    TransformComponent:
+      Position: [2.98023856e-10, 0.0257118288, 2.13162816e-16]
+      Rotation: [0, 0, -0.441057175]
+      Scale: [0.99999994, 0.99999994, 1]
+    MeshTagComponent:
+      EntityID: 7209605513036342274
+  - Entity: 4476019719583079647
+    TagComponent:
+      Tag: Bone.016
+    Parent: 2963945116809832754
+    Children:
+      - Handle: 7523685982142766154
+    TransformComponent:
+      Position: [0, 0.0180665012, 0]
+      Rotation: [1.42936031e-07, 1.37095697e-07, -1.10929322]
+      Scale: [1, 1, 1]
+    MeshTagComponent:
+      EntityID: 16144347613363498108
+  - Entity: 4677782297016005214
+    TagComponent:
+      Tag: Bone.013
+    Parent: 2963945116809832754
+    Children:
+      - Handle: 4376497608686961619
+    TransformComponent:
+      Position: [0, 0.0180665012, 0]
+      Rotation: [0, 0, -0.591112554]
+      Scale: [1, 1, 1]
+    MeshTagComponent:
+      EntityID: 1090191323785461017
+  - Entity: 6134607173504613518
+    TagComponent:
+      Tag: Bone.005
+    Parent: 2963945116809832754
+    Children:
+      - Handle: 1212966624780602724
+    TransformComponent:
+      Position: [0, 0.0180665012, 0]
+      Rotation: [-2.82058721e-07, -0, 0.629257023]
+      Scale: [1, 1, 1]
+    MeshTagComponent:
+      EntityID: 11696403623772512525
+  - Entity: 6163644078430435295
+    TagComponent:
+      Tag: Bone.010
+    Parent: 3322505699212156728
+    Children:
+      []
+    TransformComponent:
+      Position: [4.37427852e-16, 0.0174800809, -5.68434176e-16]
+      Rotation: [-0.265346795, 0.203103483, -0.016196914]
+      Scale: [0.99999994, 0.999999881, 0.99999994]
+    MeshTagComponent:
+      EntityID: 9775908941372780233
+  - Entity: 6917476609853878424
+    TagComponent:
+      Tag: PlayerBrightness
+    Parent: 13650339194316899898
+    Children:
+      []
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ScriptID: 615630037
+      ScriptName: PlayerBrightness
+      Fields:
+        - ID: 3783901132
+          Name: emisiveMaterial
+          Type: Material
+          Value: 8674187587940310268
+    PointLightComponent:
+      Radiance: [0.972549021, 0.662745118, 0.403921574]
+      Intensity: 0
+      CastShadows: true
+      SoftShadows: true
+      MinRadius: 1
+      Radius: 10
+      LightSize: 0.5
+      Falloff: 1.29999995
+  - Entity: 7214434436377378954
+    TagComponent:
+      Tag: Plane
+    Parent: 14786098104033786202
+    Children:
+      []
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    MeshTagComponent:
+      EntityID: 13866859661348713356
+    SubmeshComponent:
+      AssetID: 11490106066248879968
+      SubmeshIndex: 0
+      MaterialTable:
+        0: 8674187587940310268
+      Visible: true
+  - Entity: 7321962617349384403
+    TagComponent:
+      Tag: LightPickupHolder
+    Parent: 0
+    Children:
+      - Handle: 11301722602073891816
+    TransformComponent:
+      Position: [0, 3.19579053, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 7523685982142766154
+    TagComponent:
+      Tag: Bone.017
+    Parent: 4476019719583079647
+    Children:
+      - Handle: 10606012646426766237
+    TransformComponent:
+      Position: [-1.19209254e-09, 0.0173881575, -5.68434176e-16]
+      Rotation: [2.45402731e-07, 1.42108547e-14, -0.92528075]
+      Scale: [1, 1, 1]
+    MeshTagComponent:
+      EntityID: 8911566770225655085
+  - Entity: 7638810540146458896
+    TagComponent:
+      Tag: Point Light
+    Parent: 10336408733056039619
+    Children:
+      []
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    PointLightComponent:
+      Radiance: [1, 1, 1]
+      Intensity: 0.100000001
+      CastShadows: true
+      SoftShadows: true
+      MinRadius: 1
+      Radius: 7
+      LightSize: 0.5
+      Falloff: 1
+  - Entity: 7681419595653401053
+    TagComponent:
+      Tag: Bone.012
+    Parent: 13108665968505373784
+    Children:
+      []
+    TransformComponent:
+      Position: [1.78813941e-09, 0.00681395829, -8.88178367e-17]
+      Rotation: [-1.56420015e-07, -0, 1.32517874]
+      Scale: [1, 1, 1]
+    MeshTagComponent:
+      EntityID: 2569497820478659716
+  - Entity: 8304037554562661159
+    TagComponent:
+      Tag: RWall
+    Parent: 12140142183551904842
+    Children:
+      []
+    TransformComponent:
+      Position: [6.5, 5.37239552, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 8.20788002, 7.5]
+    StaticMeshComponent:
+      AssetID: 703708408826302074
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 9573546338039592153
+    TagComponent:
+      Tag: Bone.019
+    Parent: 2963945116809832754
+    Children:
+      - Handle: 18187289884411673335
+    TransformComponent:
+      Position: [0, 0.0180665012, 0]
+      Rotation: [1.66214676e-07, -1.42108547e-14, -1.1659044]
+      Scale: [1, 1, 1]
+    MeshTagComponent:
+      EntityID: 2550542342646888355
+  - Entity: 10336408733056039619
+    TagComponent:
+      Tag: WindParticle
+    Parent: 0
+    Children:
+      - Handle: 7638810540146458896
+    TransformComponent:
+      Position: [3, 5, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    StaticMeshComponent:
+      AssetID: 11116078761934577990
+      MaterialTable:
+        0: 13925815106171434320
+      Visible: true
+    SphereColliderComponent:
+      Radius: 0.5
+      Offset: [0, 0, 0]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 10606012646426766237
+    TagComponent:
+      Tag: Bone.018
+    Parent: 7523685982142766154
+    Children:
+      []
+    TransformComponent:
+      Position: [-1.19209265e-09, 0.0176704619, -7.1054272e-17]
+      Rotation: [-0.135114253, -0.0950331166, 0.080119282]
+      Scale: [0.99999994, 1, 1]
+    MeshTagComponent:
+      EntityID: 1129707453478352984
+  - Entity: 10865137330495811574
+    TagComponent:
+      Tag: Bone.007
+    Parent: 1212966624780602724
+    Children:
+      []
+    TransformComponent:
+      Position: [4.47036769e-10, 0.0224549714, 6.39488435e-16]
+      Rotation: [-0.186410397, 0.121547446, 0.0298047755]
+      Scale: [1, 1, 1]
+    MeshTagComponent:
+      EntityID: 7499979046294404236
+  - Entity: 11273314074004643488
+    TagComponent:
+      Tag: Lighting
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 11301722602073891816
+    TagComponent:
+      Tag: LightPickupVisual
+    Parent: 7321962617349384403
+    Children:
+      - Handle: 15632272576592514102
+    TransformComponent:
+      Position: [0.00280747935, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.200000003, 0.200000003, 0.200000003]
+    ScriptComponent:
+      ScriptID: 1850958509
+      ScriptName: LightPickup
+      Fields:
+        - ID: 244286014
+          Name: lightDurationSeconds
+          Type: Int
+          Value: 3
+        - ID: 604540617
+          Name: lightComponentEntity
+          Type: Entity
+          Value: 15632272576592514102
+    StaticMeshComponent:
+      AssetID: 11116078761934577990
+      MaterialTable:
+        0: 4738823793593707381
+      Visible: true
+    SphereColliderComponent:
+      Radius: 0.5
+      Offset: [0, 0, 0]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 12140142183551904842
+    TagComponent:
+      Tag: Walls
+    Parent: 0
+    Children:
+      - Handle: 14611870307315647717
+      - Handle: 8304037554562661159
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 13108665968505373784
+    TagComponent:
+      Tag: Bone.011
+    Parent: 2963945116809832754
+    Children:
+      - Handle: 7681419595653401053
+    TransformComponent:
+      Position: [0, 0.0180665012, 0]
+      Rotation: [-2.71653903e-07, 1.46408397e-07, 1.1790961]
+      Scale: [1, 1, 1]
+    MeshTagComponent:
+      EntityID: 9392857697677245090
+  - Entity: 13650339194316899898
+    TagComponent:
+      Tag: Player
+    Parent: 0
+    Children:
+      - Handle: 6917476609853878424
+      - Handle: 14786098104033786202
+    TransformComponent:
+      Position: [-1.43026423, 6.38723516, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ScriptID: 684687416
+      ScriptName: LeafMovement
+      Fields:
+        - ID: 699268159
+          Name: speed
+          Type: Float
+          Value: 2
+    StaticMeshComponent:
+      AssetID: 703708408826302074
+      MaterialTable:
+        0: 8674187587940310268
+      Visible: false
+    RigidBodyComponent:
+      BodyType: 1
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.5
+      AngularDrag: 0.0500000007
+      DisableGravity: true
+      IsTrigger: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 4
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 13965996779149985344
+    TagComponent:
+      Tag: Bone.021
+    Parent: 15836679402004377115
+    Children:
+      []
+    TransformComponent:
+      Position: [2.11758232e-24, 0.0274515413, 5.58793532e-11]
+      Rotation: [-0.0566111058, 6.71990783e-05, 0.00214097719]
+      Scale: [1, 1, 1]
+    MeshTagComponent:
+      EntityID: 17761342822576472533
+  - Entity: 14611870307315647717
+    TagComponent:
+      Tag: LWall
+    Parent: 12140142183551904842
+    Children:
+      []
+    TransformComponent:
+      Position: [-6.5, 5.37239552, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 8.20788002, 7.5]
+    StaticMeshComponent:
+      AssetID: 703708408826302074
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 14786098104033786202
+    TagComponent:
+      Tag: PlayerAnim
+    Parent: 13650339194316899898
+    Children:
+      - Handle: 2595514805943042811
+      - Handle: 7214434436377378954
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, -3.14159274, 0]
+      Scale: [15, 15, 15]
+    MeshComponent:
+      AssetID: 11490106066248879968
+  - Entity: 15632272576592514102
+    TagComponent:
+      Tag: Point Light
+    Parent: 11301722602073891816
+    Children:
+      []
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [5, 5, 5]
+    PointLightComponent:
+      Radiance: [1, 1, 1]
+      Intensity: 0.200000003
+      CastShadows: true
+      SoftShadows: true
+      MinRadius: 1
+      Radius: 10
+      LightSize: 0.5
+      Falloff: 1
+  - Entity: 15836679402004377115
+    TagComponent:
+      Tag: Bone.004
+    Parent: 4026996060388731396
+    Children:
+      - Handle: 13965996779149985344
+    TransformComponent:
+      Position: [1.64004977e-36, 0.0266975258, -7.1054272e-17]
+      Rotation: [-0.0960735083, 0, 0]
+      Scale: [1, 1, 1]
+    MeshTagComponent:
+      EntityID: 4311660631681103550
+  - Entity: 15910295057397995121
+    TagComponent:
+      Tag: Bone.015
+    Parent: 4376497608686961619
+    Children:
+      []
+    TransformComponent:
+      Position: [2.0861628e-09, 0.0230831075, 1.19904078e-16]
+      Rotation: [-0.210748106, -0.17550917, -0.0237542111]
+      Scale: [1, 1, 0.99999994]
+    MeshTagComponent:
+      EntityID: 2222243005872133264
+  - Entity: 16317766278501918586
+    TagComponent:
+      Tag: Bone.008
+    Parent: 2963945116809832754
+    Children:
+      - Handle: 3322505699212156728
+    TransformComponent:
+      Position: [0, 0.0180665012, 0]
+      Rotation: [-3.30643729e-07, -1.42108547e-14, 1.09266436]
+      Scale: [1, 1, 1]
+    MeshTagComponent:
+      EntityID: 14440198541264973114
+  - Entity: 16354189819541437945
+    TagComponent:
+      Tag: Camera
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [0.045212917, 5.30336237, 15.5700312]
+      Rotation: [0, -0, 0]
+      Scale: [1, 0.996212304, 1.62048888]
+    CameraComponent:
+      Camera:
+        ProjectionType: 0
+        PerspectiveFOV: 45
+        PerspectiveNear: 0.100000001
+        PerspectiveFar: 1000
+        OrthographicSize: 10
+        OrthographicNear: -1
+        OrthographicFar: 1
+      Primary: true
+  - Entity: 18187289884411673335
+    TagComponent:
+      Tag: Bone.020
+    Parent: 9573546338039592153
+    Children:
+      []
+    TransformComponent:
+      Position: [7.1054272e-17, 0.00729874847, -7.1054272e-17]
+      Rotation: [3.41922174e-07, 5.74708281e-07, -1.34066689]
+      Scale: [0.99999994, 0.99999994, 1]
+    MeshTagComponent:
+      EntityID: 13876911752523215329
+SceneAudio:
+  MasterReverb:
+    Pre-delay: 44
+    Room size: 0.49999994
+    Damping: 0.5
+    Width: 1

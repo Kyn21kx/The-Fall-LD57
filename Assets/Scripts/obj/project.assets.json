@@ -1,0 +1,115 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Coral.Managed/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Coral.Managed.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Coral.Managed.dll": {}
+        }
+      },
+      "Hazel-ScriptCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Coral.Managed": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Hazel-ScriptCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Hazel-ScriptCore.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Coral.Managed/1.0.0": {
+      "type": "project",
+      "path": "../../../Hazel/Hazel/vendor/Coral/Coral.Managed/Coral.Managed.csproj",
+      "msbuildProject": "../../../Hazel/Hazel/vendor/Coral/Coral.Managed/Coral.Managed.csproj"
+    },
+    "Hazel-ScriptCore/1.0.0": {
+      "type": "project",
+      "path": "../../../Hazel/Hazel-ScriptCore/Hazel-ScriptCore.csproj",
+      "msbuildProject": "../../../Hazel/Hazel-ScriptCore/Hazel-ScriptCore.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Hazel-ScriptCore >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\nefes\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\nefes\\Personal\\The Fall\\Assets\\Scripts\\The Fall.csproj",
+      "projectName": "The Fall",
+      "projectPath": "C:\\Users\\nefes\\Personal\\The Fall\\Assets\\Scripts\\The Fall.csproj",
+      "packagesPath": "C:\\Users\\nefes\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nefes\\Personal\\The Fall\\Assets\\Scripts\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\nefes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\nefes\\Personal\\Hazel\\Hazel-ScriptCore\\Hazel-ScriptCore.csproj": {
+              "projectPath": "C:\\Users\\nefes\\Personal\\Hazel\\Hazel-ScriptCore\\Hazel-ScriptCore.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

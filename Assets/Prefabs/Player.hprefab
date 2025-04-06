@@ -1,0 +1,47 @@
+Prefab:
+  - Entity: 474626837613242345
+    TagComponent:
+      Tag: Player
+    Parent: 0
+    Children:
+      []
+    PrefabComponent:
+      Prefab: 11016160900958588854
+      Entity: 474626837613242345
+    TransformComponent:
+      Position: [7.4505806e-09, 4.62499523, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.977383077, 0.106173284, 1.55700326]
+    ScriptComponent:
+      ScriptID: 684687416
+      ScriptName: LeafMovement
+      Fields:
+        - ID: 699268159
+          Name: speed
+          Type: Float
+          Value: 2
+    StaticMeshComponent:
+      AssetID: 703708408826302074
+      MaterialTable:
+        0: 8674187587940310268
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 1
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.5
+      AngularDrag: 0.0500000007
+      DisableGravity: true
+      IsTrigger: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006

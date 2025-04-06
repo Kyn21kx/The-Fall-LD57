@@ -1,0 +1,79 @@
+Project:
+  Name: The Fall
+  AssetDirectory: Assets
+  AssetRegistry: Assets/AssetRegistry.hzr
+  AudioCommandsRegistryPath: Assets/AudioCommandsRegistry.hzr
+  MeshPath: Assets/Meshes
+  MeshSourcePath: Assets/Meshes/Source
+  AnimationPath: Assets/Animation
+  ScriptModulePath: Assets/Scripts/Binaries
+  DefaultNamespace: The Fall
+  StartScene: Scenes\Main.hscene
+  AutomaticallyReloadAssembly: true
+  AutoSave: false
+  AutoSaveInterval: 300
+  Audio:
+    FileStreamingDurationThreshold: 30
+  Physics:
+    FixedTimestep: 0.0199999996
+    Gravity: [0, -9.81000042, 0]
+    SolverPositionIterations: 8
+    SolverVelocityIterations: 2
+    MaxBodies: 1000
+    CaptureOnPlay: true
+    CaptureMethod: 1
+  Log:
+    Animation:
+      Enabled: true
+      LevelFilter: Warn
+    Asset Pack:
+      Enabled: true
+      LevelFilter: Warn
+    AssetManager:
+      Enabled: true
+      LevelFilter: Warn
+    AssetSystem:
+      Enabled: true
+      LevelFilter: Warn
+    Assimp:
+      Enabled: true
+      LevelFilter: Error
+    Audio:
+      Enabled: true
+      LevelFilter: Info
+    Core:
+      Enabled: true
+      LevelFilter: Trace
+    GLFW:
+      Enabled: true
+      LevelFilter: Error
+    Memory:
+      Enabled: true
+      LevelFilter: Error
+    Mesh:
+      Enabled: true
+      LevelFilter: Warn
+    Physics:
+      Enabled: true
+      LevelFilter: Warn
+    Project:
+      Enabled: true
+      LevelFilter: Warn
+    Renderer:
+      Enabled: true
+      LevelFilter: Info
+    Scene:
+      Enabled: true
+      LevelFilter: Info
+    Scripting:
+      Enabled: true
+      LevelFilter: Warn
+    Sound Spatializer:
+      Enabled: true
+      LevelFilter: Warn
+    Timer:
+      Enabled: false
+      LevelFilter: Trace
+    miniaudio:
+      Enabled: true
+      LevelFilter: Error

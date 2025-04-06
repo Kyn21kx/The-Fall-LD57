@@ -1,0 +1,7 @@
+
+
+Cache/*
+*.sln
+*.csproj
+.vs/*
+

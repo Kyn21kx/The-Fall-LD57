@@ -1,0 +1,7 @@
+Animation:
+  AnimationSource: 7937602104961656907
+  SkeletonSource: 7937602104961656907
+  AnimationName: PlaneAction
+  FilterRootMotion: false
+  RootTranslationMask: [0, 0, 0]
+  RootRotationMask: [0, 0, 0]

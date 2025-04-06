@@ -1,0 +1,115 @@
+Assets:
+  - Handle: 50216550598965839
+    FilePath: Meshes/Leaf.hsmesh
+    Type: StaticMesh
+  - Handle: 137193633316219586
+    FilePath: Scripts/Source/Utils/GameManager.cs
+    Type: ScriptFile
+  - Handle: 492268788255487201
+    FilePath: Scripts/Intermediates/Debug/The Fall.AssemblyInfo.cs
+    Type: ScriptFile
+  - Handle: 528978246841912476
+    FilePath: Animation/Leaf.hanimgraph
+    Type: AnimationGraph
+  - Handle: 703708408826302074
+    FilePath: Meshes/Default/Cube.hsmesh
+    Type: StaticMesh
+  - Handle: 1447668910062203688
+    FilePath: Scripts/Source/Particle.cs
+    Type: ScriptFile
+  - Handle: 2552047308550805161
+    FilePath: Meshes/Default/Plane.hsmesh
+    Type: StaticMesh
+  - Handle: 3327957806279281684
+    FilePath: Prefabs/LightPickupHolder.hprefab
+    Type: Prefab
+  - Handle: 3720882456141536086
+    FilePath: Meshes/Default/Source/Cylinder.gltf
+    Type: MeshSource
+  - Handle: 4738823793593707381
+    FilePath: Materials/LightMaterial.hmaterial
+    Type: Material
+  - Handle: 4879866179040818345
+    FilePath: Scripts/Source/ParticleSystem.cs
+    Type: ScriptFile
+  - Handle: 4955943746125836290
+    FilePath: Meshes/Default/Source/Sphere.gltf
+    Type: MeshSource
+  - Handle: 5433185992705393124
+    FilePath: Scripts/Source/Utils/SpartanMath.cs
+    Type: ScriptFile
+  - Handle: 6540596003901376458
+    FilePath: Scripts/Source/Player/LeafMovement.cs
+    Type: ScriptFile
+  - Handle: 6892748795270121745
+    FilePath: Meshes/Default/Source/Cone.gltf
+    Type: MeshSource
+  - Handle: 7937602104961656907
+    FilePath: Models/Leaf.fbx
+    Type: MeshSource
+  - Handle: 8523409326645168038
+    FilePath: Meshes/Leaf.hsmesh
+    Type: StaticMesh
+  - Handle: 8674187587940310268
+    FilePath: Materials/PlayerMaterial.hmaterial
+    Type: Material
+  - Handle: 9239470756753727593
+    FilePath: Scripts/Source/LightPickup.cs
+    Type: ScriptFile
+  - Handle: 9956364012359449369
+    FilePath: Scripts/Source/Utils/Assert.cs
+    Type: ScriptFile
+  - Handle: 10858584215479624304
+    FilePath: Meshes/Default/Source/Torus.gltf
+    Type: MeshSource
+  - Handle: 11016160900958588854
+    FilePath: Prefabs/Player.hprefab
+    Type: Prefab
+  - Handle: 11116078761934577990
+    FilePath: Meshes/Default/Sphere.hsmesh
+    Type: StaticMesh
+  - Handle: 11395405542472336478
+    FilePath: Scripts/Intermediates/Debug/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+    Type: ScriptFile
+  - Handle: 11490106066248879968
+    FilePath: Meshes/Leaf.hmesh
+    Type: Mesh
+  - Handle: 12239464833808305697
+    FilePath: Animation/Leaf.hskel
+    Type: Skeleton
+  - Handle: 13156719642392940320
+    FilePath: Prefabs/WindParticle.hprefab
+    Type: Prefab
+  - Handle: 13169490011001335373
+    FilePath: Meshes/Leaf.hmesh
+    Type: Mesh
+  - Handle: 13925815106171434320
+    FilePath: Materials/WindMaterial.hmaterial
+    Type: Material
+  - Handle: 14799791522624175028
+    FilePath: Animation/ArmatureAction.001.hanim
+    Type: Animation
+  - Handle: 15206752528554391478
+    FilePath: Scenes/Main.hscene
+    Type: Scene
+  - Handle: 15256530895748116012
+    FilePath: Scripts/Source/Player/Brightness.cs
+    Type: ScriptFile
+  - Handle: 15463064831056286409
+    FilePath: Animation/Leaf.hskel
+    Type: Skeleton
+  - Handle: 16023919214102369141
+    FilePath: Animation/PlaneAction.hanim
+    Type: Animation
+  - Handle: 16307569548691557704
+    FilePath: Meshes/Default/Source/Plane.gltf
+    Type: MeshSource
+  - Handle: 16523483811534688004
+    FilePath: Animation/ArmatureAction.001.hanim
+    Type: Animation
+  - Handle: 17516609090374538864
+    FilePath: Meshes/Default/Source/Capsule.gltf
+    Type: MeshSource
+  - Handle: 18115322849464285897
+    FilePath: Meshes/Default/Source/Cube.gltf
+    Type: MeshSource

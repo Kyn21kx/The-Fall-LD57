@@ -1,0 +1,17 @@
+C:\Users\nefes\Personal\The Fall\Assets\Scripts\Binaries\Coral.Managed.dll
+C:\Users\nefes\Personal\The Fall\Assets\Scripts\Binaries\Hazel-ScriptCore.dll
+C:\Users\nefes\Personal\The Fall\Assets\Scripts\Binaries\Hazel-ScriptCore.pdb
+C:\Users\nefes\Personal\The Fall\Assets\Scripts\Binaries\Coral.Managed.pdb
+C:\Users\nefes\Personal\The Fall\Assets\Scripts\Intermediates\Debug\The Fall.csproj.AssemblyReference.cache
+C:\Users\nefes\Personal\The Fall\Assets\Scripts\Intermediates\Debug\The Fall.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nefes\Personal\The Fall\Assets\Scripts\Intermediates\Debug\The Fall.AssemblyInfoInputs.cache
+C:\Users\nefes\Personal\The Fall\Assets\Scripts\Intermediates\Debug\The Fall.AssemblyInfo.cs
+C:\Users\nefes\Personal\The Fall\Assets\Scripts\Intermediates\Debug\The Fall.csproj.CoreCompileInputs.cache
+C:\Users\nefes\Personal\The Fall\Assets\Scripts\Intermediates\Debug\The Fall.csproj.Up2Date
+C:\Users\nefes\Personal\The Fall\Assets\Scripts\Intermediates\Debug\The Fall.dll
+C:\Users\nefes\Personal\The Fall\Assets\Scripts\Intermediates\Debug\refint\The Fall.dll
+C:\Users\nefes\Personal\The Fall\Assets\Scripts\Intermediates\Debug\The Fall.pdb
+C:\Users\nefes\Personal\The Fall\Assets\Scripts\Binaries\The Fall.deps.json
+C:\Users\nefes\Personal\The Fall\Assets\Scripts\Binaries\The Fall.dll
+C:\Users\nefes\Personal\The Fall\Assets\Scripts\Binaries\The Fall.pdb
+C:\Users\nefes\Personal\The Fall\Assets\Scripts\Intermediates\Debug\ref\The Fall.dll
