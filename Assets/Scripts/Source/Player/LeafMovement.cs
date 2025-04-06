@@ -3,6 +3,8 @@ using Hazel;
 class LeafMovement : Entity {
 	private Vector3 m_movingDirection;
 	public float speed;
+	private readonly Vector3 UPPER_BOUND = new Vector3(0f, 9f, 0f); 
+	private readonly Vector3 LOWER_BOUND = new Vector3(0f, -1f, 0f); 
 	
 	private RigidBodyComponent? m_rig;
 
@@ -20,6 +22,8 @@ class LeafMovement : Entity {
 	}
 
 	private void Move(float ts) {
+		// Clamp position on the Y axis
+		this.Transform.WorldTransform.Position.Clamp(LOWER_BOUND, UPPER_BOUND);
 		this.m_rig!.AddForce(this.m_movingDirection);		
 	}
 	

@@ -4,4 +4,7 @@ Cache/*
 *.sln
 *.csproj
 .vs/*
+Assets/Scripts/Binaries
+*/**.pdb
+*.pdb
 

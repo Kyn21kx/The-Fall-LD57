@@ -77,9 +77,6 @@ Assets:
   - Handle: 12239464833808305697
     FilePath: Animation/Leaf.hskel
     Type: Skeleton
-  - Handle: 13156719642392940320
-    FilePath: Prefabs/WindParticle.hprefab
-    Type: Prefab
   - Handle: 13169490011001335373
     FilePath: Meshes/Leaf.hmesh
     Type: Mesh

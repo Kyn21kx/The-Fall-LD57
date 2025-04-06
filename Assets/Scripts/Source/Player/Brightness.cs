@@ -34,7 +34,6 @@ public class PlayerBrightness : Entity {
 		}
 		this.m_fadeOutSeconds -= ts;
 		float intensityFactor = this.m_fadeOutSeconds / this.m_initialFadeOutSeconds;	
-		Log.Debug($"Intensity factor: {intensityFactor}");
 		this.m_lightSource.Intensity = Mathf.Max(this.m_intensityLimit * intensityFactor, 0.0f); 
 		this.emisiveMaterial.Emission = Mathf.Max(this.m_emissionLimit * intensityFactor, 0.5f);
 	}

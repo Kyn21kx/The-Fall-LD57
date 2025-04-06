@@ -176,6 +176,25 @@ namespace Auxiliars
 			return Perpendicular(inDirection);
 		}
 
+		public static Vector3 RandVec3Uniform(float min, float max) {
+			float val = Random.Range(min, max);
+			return new Vector3(val, val, val);
+		}
+		
+		public static Vector3 RandVec3(float min, float max) {
+			float valX = Random.Range(min, max);
+			float valY = Random.Range(min, max);
+			float valZ = Random.Range(min, max);
+			return new Vector3(valX, valY, valZ);
+		}
+		
+		public static Vector3 RandVec3(Vector3 min, Vector3 max) {
+			float valX = Random.Range(min.X, max.X);
+			float valY = Random.Range(min.Y, max.Y);
+			float valZ = Random.Range(min.Z, max.Z);
+			return new Vector3(valX, valY, valZ);
+		}
+
 		// Normalize an angle between 0 and 360 degrees
 		private static float NormalizeAngle(float angle) {
 			angle %= DEG_IN_CIRCLE;

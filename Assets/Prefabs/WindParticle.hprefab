@@ -1,46 +1,39 @@
 Prefab:
-  - Entity: 6072126175102763097
-    TagComponent:
-      Tag: Point Light
-    Parent: 15326969668988393284
-    Children:
-      []
-    PrefabComponent:
-      Prefab: 13156719642392940320
-      Entity: 6072126175102763097
-    TransformComponent:
-      Position: [0, 0, 0]
-      Rotation: [0, -0, 0]
-      Scale: [1, 1, 1]
-    PointLightComponent:
-      Radiance: [1, 1, 1]
-      Intensity: 0.100000001
-      CastShadows: true
-      SoftShadows: true
-      MinRadius: 1
-      Radius: 7
-      LightSize: 0.5
-      Falloff: 1
-  - Entity: 15326969668988393284
+  - Entity: 10353663407172839088
     TagComponent:
       Tag: WindParticle
     Parent: 0
     Children:
-      - Handle: 6072126175102763097
+      []
     PrefabComponent:
-      Prefab: 13156719642392940320
-      Entity: 15326969668988393284
+      Prefab: 5826971552634855440
+      Entity: 10353663407172839088
     TransformComponent:
-      Position: [3, 5, 0]
+      Position: [0, 0, 0]
       Rotation: [0, 0, 0]
       Scale: [1, 1, 1]
+    ScriptComponent:
+      ScriptID: 3990125069
+      ScriptName: Particle
+      Fields:
+        []
     StaticMeshComponent:
       AssetID: 11116078761934577990
       MaterialTable:
         0: 13925815106171434320
       Visible: true
-    SphereColliderComponent:
-      Radius: 0.5
-      Offset: [0, 0, 0]
-      Friction: 0.5
-      Restitution: 0.150000006
+    RigidBodyComponent:
+      BodyType: 1
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 0.100000001
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: true
+      IsTrigger: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0

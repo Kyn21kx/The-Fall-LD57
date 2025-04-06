@@ -15,3 +15,4 @@ C:\Users\nefes\Personal\The Fall\Assets\Scripts\Binaries\The Fall.deps.json
 C:\Users\nefes\Personal\The Fall\Assets\Scripts\Binaries\The Fall.dll
 C:\Users\nefes\Personal\The Fall\Assets\Scripts\Binaries\The Fall.pdb
 C:\Users\nefes\Personal\The Fall\Assets\Scripts\Intermediates\Debug\ref\The Fall.dll
+C:\Users\nefes\Personal\The Fall\Assets\Scripts\Intermediates\Debug\The Fall.sourcelink.json
