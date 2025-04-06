@@ -17,6 +17,12 @@ public class GameManager : Entity {
 	public Entity? mainCam;
 	public CameraComponent MainCamera { get; private set; }
 
+	public Entity? environmentTray;
+	public EnvironmentTray EntitySpawnTray { get; private set; }
+
+	public float GameTime { get; private set; }
+	public float GameTimeWhole => (int)this.GameTime;
+
 	protected override void OnCreate() {
 		s_instance = this;
 		Assert.NotNull(player, "Player not set in manager!");
@@ -27,6 +33,14 @@ public class GameManager : Entity {
 		this.WindParticleSystem = this.windParticleSystem.As<ParticleSystem>();
 		Assert.NotNull(mainCam);
 		this.MainCamera = mainCam.GetComponent<CameraComponent>();
+		Assert.NotNull(this.environmentTray);
+		this.EntitySpawnTray = this.environmentTray.As<EnvironmentTray>();
+	}
+	
+	protected override void OnUpdate(float ts) {
+		this.GameTime += ts;
+		LightPickup.SpawnUpdate();
+		
 	}
 	
 }

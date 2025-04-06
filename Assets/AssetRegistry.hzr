@@ -14,9 +14,15 @@ Assets:
   - Handle: 703708408826302074
     FilePath: Meshes/Default/Cube.hsmesh
     Type: StaticMesh
+  - Handle: 745411741990764342
+    FilePath: Prefabs/WindParticleSystem.hprefab
+    Type: Prefab
   - Handle: 1447668910062203688
     FilePath: Scripts/Source/Particle.cs
     Type: ScriptFile
+  - Handle: 2093969135009852932
+    FilePath: Prefabs/WindParticle.hprefab
+    Type: Prefab
   - Handle: 2552047308550805161
     FilePath: Meshes/Default/Plane.hsmesh
     Type: StaticMesh
@@ -77,6 +83,9 @@ Assets:
   - Handle: 12239464833808305697
     FilePath: Animation/Leaf.hskel
     Type: Skeleton
+  - Handle: 13156573928010320781
+    FilePath: Scripts/Source/EnvironmentTray.cs
+    Type: ScriptFile
   - Handle: 13169490011001335373
     FilePath: Meshes/Leaf.hmesh
     Type: Mesh

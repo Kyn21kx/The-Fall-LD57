@@ -1,13 +1,19 @@
+using Hazel;
+
 public static class Assert {
 
 	public static void NotNull<T>(T? obj, string message = "") {
 		if (obj != null) return;
-		throw new System.Exception($"Assertion failed! {message}");
+		string errMsg = $"Assertion failed! {message}"; 
+		Log.Error(errMsg);
+		throw new System.Exception(errMsg);
 	}
 
 	public static void IsTrue(bool condition, string message = "") {
 		if (!condition) {
-			throw new System.Exception($"Assertion failed! {message}");
+			string errMsg = $"Assertion failed! {message}"; 
+			Log.Error(errMsg);
+			throw new System.Exception(errMsg);
 		}
 	}
 	

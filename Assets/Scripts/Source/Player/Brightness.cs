@@ -26,6 +26,7 @@ public class PlayerBrightness : Entity {
 		this.m_lightSource = GetComponent<PointLightComponent>();
 		this.m_lightSource.Intensity = 0f;
 		Assert.NotNull(this.emisiveMaterial);
+		this.emisiveMaterial.Emission = 0.5f;
 	}
 
 	protected override void OnUpdate(float ts) {

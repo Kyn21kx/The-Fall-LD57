@@ -50,6 +50,16 @@ public class LightPickup : Entity {
 		this.Transform.LocalTransform = localTransform;
 	}
 
+	public static void SpawnUpdate() {
+		if (GameManager.Instance.GameTimeWhole != 0 && GameManager.Instance.GameTimeWhole % 2 != 0) return;
+		Log.Debug("Tick");
+		bool shouldSpawn = SpartanMath.RandomChance(1, 100);
+		if (shouldSpawn) {
+			Prefab prefab = GameManager.Instance.EntitySpawnTray.lightPickupPrefab;
+			GameManager.Instance.EntitySpawnTray.SpawnEntity<LightPickup>(prefab);
+		}
+	}
+
 	private Vector3 RandLocalPosition() {
 		return new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), 0f).Normalized() * RAND_MOVEMENT_RADIUS;
 	}	

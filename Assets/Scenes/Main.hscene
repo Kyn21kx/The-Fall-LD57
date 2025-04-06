@@ -30,6 +30,10 @@ Entities:
           Name: mainCam
           Type: Entity
           Value: 16354189819541437945
+        - ID: 975921619
+          Name: environmentTray
+          Type: Entity
+          Value: 17527637980720141259
   - Entity: 1212966624780602724
     TagComponent:
       Tag: Bone.006
@@ -67,7 +71,7 @@ Entities:
         - ID: 1215095166
           Name: particle
           Type: Prefab
-          Value: 5826971552634855440
+          Value: 2093969135009852932
         - ID: 4231019786
           Name: minParticeScale
           Type: Vector3
@@ -112,6 +116,16 @@ Entities:
       Scale: [1, 0.99999994, 0.99999994]
     MeshTagComponent:
       EntityID: 0
+  - Entity: 2652944906848643503
+    TagComponent:
+      Tag: UpperBounds
+    Parent: 17527637980720141259
+    Children:
+      []
+    TransformComponent:
+      Position: [0, 12, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
   - Entity: 2963945116809832754
     TagComponent:
       Tag: Bone
@@ -313,6 +327,16 @@ Entities:
       HalfSize: [0.5, 0.5, 0.5]
       Friction: 0.5
       Restitution: 0.150000006
+  - Entity: 8635294521789879036
+    TagComponent:
+      Tag: LowerBounds
+    Parent: 17527637980720141259
+    Children:
+      []
+    TransformComponent:
+      Position: [0, -5, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
   - Entity: 9573546338039592153
     TagComponent:
       Tag: Bone.019
@@ -586,6 +610,33 @@ Entities:
         OrthographicNear: -1
         OrthographicFar: 1
       Primary: true
+  - Entity: 17527637980720141259
+    TagComponent:
+      Tag: EnvironmentTray
+    Parent: 0
+    Children:
+      - Handle: 8635294521789879036
+      - Handle: 2652944906848643503
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ScriptID: 1476815842
+      ScriptName: EnvironmentTray
+      Fields:
+        - ID: 1320704764
+          Name: upperBound
+          Type: Entity
+          Value: 2652944906848643503
+        - ID: 1191880265
+          Name: lowerBound
+          Type: Entity
+          Value: 8635294521789879036
+        - ID: 412357030
+          Name: lightPickupPrefab
+          Type: Prefab
+          Value: 3327957806279281684
   - Entity: 18187289884411673335
     TagComponent:
       Tag: Bone.020
