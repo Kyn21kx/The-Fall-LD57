@@ -78,22 +78,18 @@ class LeafMovement : Entity {
 		// Apply an upwards "force" to the player
 		if (Input.IsKeyHeld(KeyCode.A)) {
 			this.m_movingDirection.X -= this.speed;
+			this.m_dashingDirection = -Vector3.Right;
 		}
 		
 		if (Input.IsKeyHeld(KeyCode.D)) {
 			this.m_movingDirection.X += this.speed;
+			this.m_dashingDirection = Vector3.Right;
 		}
 		if (Input.IsMouseButtonPressed(MouseButton.Right) && this.m_dashCooldownTime <= 0f) {
 			// Trigger the dash in the relative direction of the mouse (clamped to left or right)
 			this.m_state = EMovementState.Dashing;
 			this.m_dashDurationTime = this.dashDuration;
 			this.m_dashCooldownTime = DASH_COOLDOWN;
-			this.m_dashingDirection = this.GetMouseDirection();
 		}
 	}
-	
-	public Vector3 GetMouseDirection() {
-		return Vector3.Right;
-	}
-	
 }
