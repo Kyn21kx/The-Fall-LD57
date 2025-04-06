@@ -27,7 +27,6 @@ public class ParticleSystem : Entity {
 	private float m_durationLeft;
 
 	protected override void OnCreate() {
-		this.Start();
 	}
 
 	protected override void OnUpdate(float ts) {

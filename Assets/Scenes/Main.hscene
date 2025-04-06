@@ -22,6 +22,14 @@ Entities:
           Name: playerBrightnessEntity
           Type: Entity
           Value: 6917476609853878424
+        - ID: 273414179
+          Name: windParticleSystem
+          Type: Entity
+          Value: 2296520907164420515
+        - ID: 1868767196
+          Name: mainCam
+          Type: Entity
+          Value: 16354189819541437945
   - Entity: 1212966624780602724
     TagComponent:
       Tag: Bone.006
@@ -67,7 +75,7 @@ Entities:
         - ID: 3676622707
           Name: particleCount
           Type: Int
-          Value: 2
+          Value: 10
         - ID: 2854473782
           Name: maxParticleScale
           Type: Vector3
@@ -84,6 +92,14 @@ Entities:
           Name: duration
           Type: Float
           Value: 3
+    RigidBody2DComponent:
+      BodyType: 2
+      FixedRotation: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      GravityScale: 1
+      IsBullet: false
   - Entity: 2595514805943042811
     TagComponent:
       Tag: Armature
@@ -417,6 +433,14 @@ Entities:
           Name: speed
           Type: Float
           Value: 2
+        - ID: 1275886671
+          Name: dashSpeed
+          Type: Float
+          Value: 10
+        - ID: 1317140250
+          Name: dashDuration
+          Type: Float
+          Value: 0.25
     StaticMeshComponent:
       AssetID: 703708408826302074
       MaterialTable:
