@@ -18,6 +18,10 @@ Entities:
           Name: player
           Type: Entity
           Value: 13650339194316899898
+        - ID: 1287969077
+          Name: movingTerrain
+          Type: Entity
+          Value: 15145854080480687624
         - ID: 1130277195
           Name: playerBrightnessEntity
           Type: Entity
@@ -41,7 +45,7 @@ Entities:
       Rotation: [-1.56420015e-07, -0, 1.32517874]
       Scale: [1, 1, 1]
     MeshTagComponent:
-      EntityID: 10112143870854531245
+      EntityID: 0
   - Entity: 1324185755657921307
     TagComponent:
       Tag: MURO_1
@@ -146,7 +150,7 @@ Entities:
       Rotation: [0, -0, 0]
       Scale: [1, 1, 1]
     MeshTagComponent:
-      EntityID: 3597941993816828608
+      EntityID: 0
     SubmeshComponent:
       AssetID: 11490106066248879968
       SubmeshIndex: 0
@@ -164,7 +168,7 @@ Entities:
       Rotation: [0, -0, 0]
       Scale: [1, 1, 1]
     MeshTagComponent:
-      EntityID: 13095849999133255305
+      EntityID: 0
   - Entity: 4521626522922457044
     TagComponent:
       Tag: Bone.018
@@ -176,7 +180,7 @@ Entities:
       Rotation: [-0.135114253, -0.0950331166, 0.080119282]
       Scale: [0.99999994, 1, 1]
     MeshTagComponent:
-      EntityID: 1771443573024740238
+      EntityID: 0
   - Entity: 4712485498240103413
     TagComponent:
       Tag: MURO_3
@@ -245,7 +249,7 @@ Entities:
       Rotation: [0, 0, -0.441057175]
       Scale: [0.99999994, 0.99999994, 1]
     MeshTagComponent:
-      EntityID: 13392735725797845205
+      EntityID: 0
   - Entity: 5265328907185133981
     TagComponent:
       Tag: Bone.009
@@ -257,7 +261,7 @@ Entities:
       Rotation: [0, -0, 0.896947801]
       Scale: [0.999999881, 0.999999881, 1]
     MeshTagComponent:
-      EntityID: 16699916541376971567
+      EntityID: 0
   - Entity: 5864653527382950455
     TagComponent:
       Tag: Bone.006
@@ -269,7 +273,7 @@ Entities:
       Rotation: [-1.29922569e-07, 3.55271368e-15, 0.420211047]
       Scale: [0.99999994, 0.99999994, 1]
     MeshTagComponent:
-      EntityID: 16496652887716917156
+      EntityID: 0
   - Entity: 6196873880743903888
     TagComponent:
       Tag: Bone.005
@@ -281,7 +285,7 @@ Entities:
       Rotation: [-2.82058721e-07, -0, 0.629257023]
       Scale: [1, 1, 1]
     MeshTagComponent:
-      EntityID: 14981169656965410369
+      EntityID: 0
   - Entity: 6294082076520929523
     TagComponent:
       Tag: Bone.020
@@ -293,7 +297,7 @@ Entities:
       Rotation: [3.41922174e-07, 5.74708281e-07, -1.34066689]
       Scale: [0.99999994, 0.99999994, 1]
     MeshTagComponent:
-      EntityID: 17774720130025553049
+      EntityID: 0
   - Entity: 6917476609853878424
     TagComponent:
       Tag: PlayerBrightness
@@ -332,7 +336,7 @@ Entities:
       Rotation: [2.45402731e-07, 1.42108547e-14, -0.92528075]
       Scale: [1, 1, 1]
     MeshTagComponent:
-      EntityID: 2737366733020394596
+      EntityID: 0
   - Entity: 7444622688903240292
     TagComponent:
       Tag: Bone.007
@@ -344,7 +348,7 @@ Entities:
       Rotation: [-0.186410397, 0.121547446, 0.0298047755]
       Scale: [1, 1, 1]
     MeshTagComponent:
-      EntityID: 15624632042200408562
+      EntityID: 0
   - Entity: 7717974479974526872
     TagComponent:
       Tag: Bone.010
@@ -356,7 +360,7 @@ Entities:
       Rotation: [-0.265346795, 0.203103483, -0.016196914]
       Scale: [0.99999994, 0.999999881, 0.99999994]
     MeshTagComponent:
-      EntityID: 3059392204135843386
+      EntityID: 0
   - Entity: 8198206369076121066
     TagComponent:
       Tag: MURO_0
@@ -433,7 +437,7 @@ Entities:
       Rotation: [-0.210748106, -0.17550917, -0.0237542111]
       Scale: [1, 1, 0.99999994]
     MeshTagComponent:
-      EntityID: 42759021205970651
+      EntityID: 0
   - Entity: 10434370565297984508
     TagComponent:
       Tag: Bone.004
@@ -445,7 +449,7 @@ Entities:
       Rotation: [-0.0960735083, 0, 0]
       Scale: [1, 1, 1]
     MeshTagComponent:
-      EntityID: 7982178335344618041
+      EntityID: 0
   - Entity: 11273314074004643488
     TagComponent:
       Tag: Lighting
@@ -478,7 +482,7 @@ Entities:
       Rotation: [-3.30643729e-07, -1.42108547e-14, 1.09266436]
       Scale: [1, 1, 1]
     MeshTagComponent:
-      EntityID: 3101530629735772636
+      EntityID: 0
   - Entity: 13451852906603421163
     TagComponent:
       Tag: MURO_0
@@ -653,7 +657,7 @@ Entities:
       Rotation: [1.57079649, -0, 2.38418579e-07]
       Scale: [1, 0.99999994, 0.99999994]
     MeshTagComponent:
-      EntityID: 437835311830323043
+      EntityID: 0
   - Entity: 14611870307315647717
     TagComponent:
       Tag: LWall
@@ -722,7 +726,7 @@ Entities:
       Rotation: [-1.57079649, 0, 0]
       Scale: [1, 0.99999994, 0.99999994]
     MeshTagComponent:
-      EntityID: 12827876131510248278
+      EntityID: 0
   - Entity: 15635949322007116329
     TagComponent:
       Tag: Bone.011
@@ -734,7 +738,7 @@ Entities:
       Rotation: [-2.71653903e-07, 1.46408397e-07, 1.1790961]
       Scale: [1, 1, 1]
     MeshTagComponent:
-      EntityID: 312027027271125522
+      EntityID: 0
   - Entity: 16354189819541437945
     TagComponent:
       Tag: Camera
@@ -801,7 +805,7 @@ Entities:
       Rotation: [-0.0566111058, 6.71990783e-05, 0.00214097719]
       Scale: [1, 1, 1]
     MeshTagComponent:
-      EntityID: 620476592050758883
+      EntityID: 0
   - Entity: 16872177386381121564
     TagComponent:
       Tag: Bone.016
@@ -813,7 +817,7 @@ Entities:
       Rotation: [1.42936031e-07, 1.37095697e-07, -1.10929322]
       Scale: [1, 1, 1]
     MeshTagComponent:
-      EntityID: 7850707822312860900
+      EntityID: 0
   - Entity: 17081489863860224181
     TagComponent:
       Tag: Bone.019
@@ -825,7 +829,7 @@ Entities:
       Rotation: [1.66214676e-07, -1.42108547e-14, -1.1659044]
       Scale: [1, 1, 1]
     MeshTagComponent:
-      EntityID: 1314714309997558300
+      EntityID: 0
   - Entity: 17527637980720141259
     TagComponent:
       Tag: EnvironmentTray
@@ -857,10 +861,18 @@ Entities:
           Name: lightPickupPrefab
           Type: Prefab
           Value: 3327957806279281684
+        - ID: 91813050
+          Name: woodObstaclePrefab
+          Type: Prefab
+          Value: 9418006243215016928
         - ID: 905647349
           Name: windParticleSystemPrefab
           Type: Prefab
           Value: 8411839208506655527
+        - ID: 3189046357
+          Name: obstaclePrefab
+          Type: Prefab
+          Value: 979784447243035302
   - Entity: 18104129798160878613
     TagComponent:
       Tag: LightPickupVisual
@@ -907,7 +919,7 @@ Entities:
       Rotation: [0, 0, -0.591112554]
       Scale: [1, 1, 1]
     MeshTagComponent:
-      EntityID: 17352114401664934813
+      EntityID: 0
 SceneAudio:
   MasterReverb:
     Pre-delay: 44

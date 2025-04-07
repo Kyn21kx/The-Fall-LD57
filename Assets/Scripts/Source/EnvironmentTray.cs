@@ -11,6 +11,8 @@ public class EnvironmentTray : Entity {
 
 	public Prefab lightPickupPrefab;
 	public Prefab windParticleSystemPrefab;
+	public Prefab obstaclePrefab;
+	public Prefab woodObstaclePrefab;
 
 	const int EXPECTED_ENTITY_COUNT = 50;
 	
@@ -43,8 +45,7 @@ public class EnvironmentTray : Entity {
 		float valueX = Random.Range(-HORIZONTAL_RANGE, HORIZONTAL_RANGE);		
 		float valueY = lowerBound.Transform.WorldTransform.Position.Y;
 		Vector3 position = new Vector3(valueX, valueY, 0f);
-		Log.Debug($"Prefab: {prefab}");
-		Entity instance = this.Instantiate(prefab, position);
+		Entity instance = this.Instantiate(prefab, position);	
 		Assert.NotNull(instance);
 		this.m_movingEntities.Add(instance);
 	}

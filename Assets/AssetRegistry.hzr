@@ -8,24 +8,39 @@ Assets:
   - Handle: 492268788255487201
     FilePath: Scripts/Intermediates/Debug/The Fall.AssemblyInfo.cs
     Type: ScriptFile
+  - Handle: 522165945608914147
+    FilePath: Audio/Menu.wav
+    Type: Audio
   - Handle: 528978246841912476
     FilePath: Animation/Leaf.hanimgraph
     Type: AnimationGraph
   - Handle: 703708408826302074
     FilePath: Meshes/Default/Cube.hsmesh
     Type: StaticMesh
+  - Handle: 974723703237749951
+    FilePath: Prefabs/ObstacleEntity.hprefab
+    Type: Prefab
+  - Handle: 979784447243035302
+    FilePath: Prefabs/Rock_1.hprefab
+    Type: Prefab
   - Handle: 1447668910062203688
     FilePath: Scripts/Source/Particle.cs
     Type: ScriptFile
   - Handle: 2552047308550805161
     FilePath: Meshes/Default/Plane.hsmesh
     Type: StaticMesh
+  - Handle: 2963720564988607425
+    FilePath: Meshes/wooden plank.hmesh
+    Type: Mesh
   - Handle: 3327957806279281684
     FilePath: Prefabs/LightPickupHolder.hprefab
     Type: Prefab
   - Handle: 3720882456141536086
     FilePath: Meshes/Default/Source/Cylinder.gltf
     Type: MeshSource
+  - Handle: 4216574683325326958
+    FilePath: Audio/New Sound Config.hsoundc
+    Type: SoundConfig
   - Handle: 4738823793593707381
     FilePath: Materials/LightMaterial.hmaterial
     Type: Material
@@ -35,6 +50,9 @@ Assets:
   - Handle: 4955943746125836290
     FilePath: Meshes/Default/Source/Sphere.gltf
     Type: MeshSource
+  - Handle: 5219490643412798095
+    FilePath: Materials/TreeMaterial.hmaterial
+    Type: Material
   - Handle: 5433185992705393124
     FilePath: Scripts/Source/Utils/SpartanMath.cs
     Type: ScriptFile
@@ -53,9 +71,18 @@ Assets:
   - Handle: 6892748795270121745
     FilePath: Meshes/Default/Source/Cone.gltf
     Type: MeshSource
+  - Handle: 7359479042070893215
+    FilePath: Meshes/low_poly_wooden_plank.hsmesh
+    Type: StaticMesh
   - Handle: 7937602104961656907
     FilePath: Models/Leaf.fbx
     Type: MeshSource
+  - Handle: 8395616257652539464
+    FilePath: Scenes/Menu.hscene
+    Type: Scene
+  - Handle: 8411839208506655527
+    FilePath: Prefabs/WindParticleSystem_t.hprefab
+    Type: Prefab
   - Handle: 8523409326645168038
     FilePath: Meshes/Leaf.hsmesh
     Type: StaticMesh
@@ -65,9 +92,18 @@ Assets:
   - Handle: 9239470756753727593
     FilePath: Scripts/Source/LightPickup.cs
     Type: ScriptFile
+  - Handle: 9239844459948925046
+    FilePath: Meshes/Rock_1.hsmesh
+    Type: StaticMesh
+  - Handle: 9820734265117013168
+    FilePath: Meshes/Tree.hmesh
+    Type: Mesh
   - Handle: 9956364012359449369
     FilePath: Scripts/Source/Utils/Assert.cs
     Type: ScriptFile
+  - Handle: 10775987314719402033
+    FilePath: Models/well.fbx
+    Type: MeshSource
   - Handle: 10858584215479624304
     FilePath: Meshes/Default/Source/Torus.gltf
     Type: MeshSource
@@ -83,15 +119,24 @@ Assets:
   - Handle: 11490106066248879968
     FilePath: Meshes/Leaf.hmesh
     Type: Mesh
+  - Handle: 11646252144510758765
+    FilePath: Meshes/well.hsmesh
+    Type: StaticMesh
   - Handle: 11847705213569694264
     FilePath: Meshes/Tree.hsmesh
     Type: StaticMesh
+  - Handle: 12021320388113322386
+    FilePath: Scripts/Source/Obstacle.cs
+    Type: ScriptFile
   - Handle: 12046257623635245394
     FilePath: Prefabs/EnvironmentTray.hprefab
     Type: Prefab
   - Handle: 12239464833808305697
     FilePath: Animation/Leaf.hskel
     Type: Skeleton
+  - Handle: 13011100778631525247
+    FilePath: Models/Rock_1.fbx
+    Type: MeshSource
   - Handle: 13156573928010320781
     FilePath: Scripts/Source/EnvironmentTray.cs
     Type: ScriptFile
@@ -119,21 +164,45 @@ Assets:
   - Handle: 15463064831056286409
     FilePath: Animation/Leaf.hskel
     Type: Skeleton
+  - Handle: 15670425200465576765
+    FilePath: Materials/WellMaterial.hmaterial
+    Type: Material
   - Handle: 16023919214102369141
     FilePath: Animation/PlaneAction.hanim
     Type: Animation
+  - Handle: 16302507278994015381
+    FilePath: Materials/LeafNonPlayerMat.hmaterial
+    Type: Material
   - Handle: 16307569548691557704
     FilePath: Meshes/Default/Source/Plane.gltf
     Type: MeshSource
   - Handle: 16523483811534688004
     FilePath: Animation/ArmatureAction.001.hanim
     Type: Animation
+  - Handle: 16531231331854672303
+    FilePath: Meshes/wooden plank.hsmesh
+    Type: StaticMesh
   - Handle: 16564070592667537167
     FilePath: Models/Tree.fbx
     Type: MeshSource
+  - Handle: 16616049412988725549
+    FilePath: Fonts/PlayfairDisplay-Regular.ttf
+    Type: Font
+  - Handle: 16718208758500461017
+    FilePath: Audio/New SoundGraph Sound.sound_graph
+    Type: SoundGraphSound
+  - Handle: 17127991553301399955
+    FilePath: Scripts/Source/MovingTerrain.cs
+    Type: ScriptFile
   - Handle: 17516609090374538864
     FilePath: Meshes/Default/Source/Capsule.gltf
     Type: MeshSource
+  - Handle: 17927979237487757281
+    FilePath: Skymaps/the_sky_is_on_fire_4k.hdr
+    Type: EnvMap
   - Handle: 18115322849464285897
     FilePath: Meshes/Default/Source/Cube.gltf
+    Type: MeshSource
+  - Handle: 18242759179523126224
+    FilePath: Models/low_poly_wooden_plank.glb
     Type: MeshSource

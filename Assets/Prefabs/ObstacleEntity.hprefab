@@ -1,0 +1,22 @@
+Prefab:
+  - Entity: 10675233201502888102
+    TagComponent:
+      Tag: ObstacleEntity
+    Parent: 0
+    Children:
+      []
+    PrefabComponent:
+      Prefab: 974723703237749951
+      Entity: 10675233201502888102
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ScriptID: 1542751596
+      ScriptName: Obstacle
+      Fields:
+        - ID: 3563701539
+          Name: rockPrefab
+          Type: Prefab
+          Value: 3261687166025047998

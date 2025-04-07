@@ -1,3 +1,4 @@
+using Auxiliars;
 using Hazel;
 
 class LeafMovement : Entity {
@@ -18,7 +19,7 @@ class LeafMovement : Entity {
 	private float m_dashCooldownTime;
 	private float m_dashDurationTime;
 	private readonly Vector3 UPPER_BOUND = new Vector3(0f, 8f, 0f); 
-	private readonly Vector3 LOWER_BOUND = new Vector3(0f, -1f, 0f); 
+	private readonly Vector3 LOWER_BOUND = new Vector3(0f, 0.5f, 0f); 
 
 	private EMovementState m_state;
 	
@@ -29,6 +30,7 @@ class LeafMovement : Entity {
 		this.m_state = EMovementState.Normal;
 		this.m_dashCooldownTime = 0f;
 		Assert.NotNull(this.m_rig);
+		this.m_rig.AddTorque(SpartanMath.RandVec3(-1f, 1f).Normalized() * 3f);
 	}
 
 	protected override void OnUpdate(float ts) {
@@ -43,7 +45,6 @@ class LeafMovement : Entity {
 
 	protected override void OnPhysicsUpdate(float ts) {
 		Vector2 screenSpaceMouse = Input.GetMousePosition();
-		// Log.Debug($"Screen space mouse: {screenSpaceMouse}");
 		switch(this.m_state) {
 			case EMovementState.Normal:
 				this.Move(ts);

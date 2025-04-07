@@ -50,7 +50,6 @@ public class ParticleSystem : Entity {
 		}
 		this.m_durationLeft -= ts;
 		if (this.m_durationLeft <= 0f) {
-			Log.Debug($"Duration left: {this.m_durationLeft}");
 			this.Stop();
 			return;
 		}

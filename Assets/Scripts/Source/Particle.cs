@@ -15,6 +15,7 @@ public class Particle : Entity {
 	}
 	
 	protected override void OnUpdate(float ts) {
+		// if (this.ID == Identifier.Invalid) return; 
 		this.m_lifetime -= ts;
 		this.Scale = Vector3.Lerp(this.Scale, this.m_finalScale, ts);
 		if (this.m_lifetime <= 0f) {

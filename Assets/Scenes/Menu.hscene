@@ -1,0 +1,544 @@
+Scene: Menu
+Entities:
+  - Entity: 2018268562122517167
+    TagComponent:
+      Tag: Directional Light
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [4.47100687, 3.20303273, -12.0399075]
+      Rotation: [-2.16712928, -0.355023116, 0.92872256]
+      Scale: [1, 1, 1]
+    DirectionalLightComponent:
+      Intensity: 1
+      Radiance: [0.838709712, 0.650469124, 0.436264306]
+      CastShadows: true
+      SoftShadows: true
+      LightSize: 4.69999981
+      ShadowAmount: 1
+  - Entity: 2783099959361215566
+    TagComponent:
+      Tag: Point Light
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [4.34103966, 2.65288687, 3.63595247]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    PointLightComponent:
+      Radiance: [1, 1, 1]
+      Intensity: 1
+      CastShadows: true
+      SoftShadows: true
+      MinRadius: 1
+      Radius: 10
+      LightSize: 0.5
+      Falloff: 1
+  - Entity: 2968168117399231466
+    TagComponent:
+      Tag: Tree
+    Parent: 9224769078596272723
+    Children:
+      []
+    TransformComponent:
+      Position: [6.66639566, -0.804980397, -9.62994003]
+      Rotation: [-3.69041572e-07, -1.11085308, 2.70067403e-07]
+      Scale: [1.00000405, 0.99999994, 1.00000405]
+    StaticMeshComponent:
+      AssetID: 11847705213569694264
+      MaterialTable:
+        0: 5219490643412798095
+        1: 16302507278994015381
+        2: 16302507278994015381
+        3: 16302507278994015381
+        4: 16302507278994015381
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    MeshColliderComponent:
+      UseSharedShape: false
+      Friction: 0.5
+      Restitution: 0.150000006
+      CollisionComplexity: "\x00"
+  - Entity: 3091518892945640990
+    TagComponent:
+      Tag: Point Light
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [-2.50848365, 8.20347118, -1.8835448]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    PointLightComponent:
+      Radiance: [1, 1, 1]
+      Intensity: 1
+      CastShadows: true
+      SoftShadows: true
+      MinRadius: 1
+      Radius: 10
+      LightSize: 0.5
+      Falloff: 1
+  - Entity: 4512378824494572026
+    TagComponent:
+      Tag: Tree
+    Parent: 9224769078596272723
+    Children:
+      []
+    TransformComponent:
+      Position: [6.62907314, 0, 1.3643111]
+      Rotation: [0, -1.57045102, 0]
+      Scale: [1, 1, 1]
+    StaticMeshComponent:
+      AssetID: 11847705213569694264
+      MaterialTable:
+        0: 5219490643412798095
+        1: 16302507278994015381
+        2: 16302507278994015381
+        3: 16302507278994015381
+        4: 16302507278994015381
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    MeshColliderComponent:
+      UseSharedShape: false
+      Friction: 0.5
+      Restitution: 0.150000006
+      CollisionComplexity: "\x00"
+  - Entity: 4542659639001338268
+    TagComponent:
+      Tag: Tree
+    Parent: 9224769078596272723
+    Children:
+      []
+    TransformComponent:
+      Position: [0.120005988, -0.804980159, -7.91208744]
+      Rotation: [-1.36872742e-07, 0.459588945, -1.55125104e-08]
+      Scale: [1.0000031, 0.999999821, 1.00000465]
+    StaticMeshComponent:
+      AssetID: 11847705213569694264
+      MaterialTable:
+        0: 5219490643412798095
+        1: 16302507278994015381
+        2: 16302507278994015381
+        3: 16302507278994015381
+        4: 16302507278994015381
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    MeshColliderComponent:
+      UseSharedShape: false
+      Friction: 0.5
+      Restitution: 0.150000006
+      CollisionComplexity: "\x00"
+  - Entity: 5467281463247562744
+    TagComponent:
+      Tag: Tree
+    Parent: 9224769078596272723
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.852105498, -0.804981112, -7.22475433]
+      Rotation: [-3.69041572e-07, -1.11085308, 2.70067403e-07]
+      Scale: [1.00000405, 0.99999994, 1.00000405]
+    StaticMeshComponent:
+      AssetID: 11847705213569694264
+      MaterialTable:
+        0: 5219490643412798095
+        1: 16302507278994015381
+        2: 16302507278994015381
+        3: 16302507278994015381
+        4: 16302507278994015381
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    MeshColliderComponent:
+      UseSharedShape: false
+      Friction: 0.5
+      Restitution: 0.150000006
+      CollisionComplexity: "\x00"
+  - Entity: 6367630221645865609
+    TagComponent:
+      Tag: Plane
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [511.461304, 511.461304, 511.461304]
+    StaticMeshComponent:
+      AssetID: 2552047308550805161
+      MaterialTable:
+        0: 5219490643412798095
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, -0.0199999996, 0]
+      HalfSize: [0.5, 0.0199999996, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 6761585338249730758
+    TagComponent:
+      Tag: Spot Light
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.173578337, 9.78738117, -10.6878786]
+      Rotation: [1.57079637, 1.13290191, 1.60705495]
+      Scale: [1, 1, 1]
+    SpotLightComponent:
+      Radiance: [1, 1, 1]
+      Angle: 60
+      AngleAttenuation: 5
+      CastsShadows: false
+      SoftShadows: false
+      Falloff: 1
+      Intensity: 10
+      Range: 10
+  - Entity: 8270098124570445241
+    TagComponent:
+      Tag: Tree
+    Parent: 9224769078596272723
+    Children:
+      []
+    TransformComponent:
+      Position: [0, 1.1920929e-07, -1.1920929e-07]
+      Rotation: [-2.08166801e-17, 5.82076609e-11, -6.05845127e-28]
+      Scale: [0.999999881, 0.999999881, 0.999999881]
+    StaticMeshComponent:
+      AssetID: 11847705213569694264
+      MaterialTable:
+        0: 5219490643412798095
+        1: 16302507278994015381
+        2: 16302507278994015381
+        3: 16302507278994015381
+        4: 16302507278994015381
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    MeshColliderComponent:
+      UseSharedShape: false
+      Friction: 0.5
+      Restitution: 0.150000006
+      CollisionComplexity: "\x00"
+  - Entity: 9224769078596272723
+    TagComponent:
+      Tag: Trees
+    Parent: 0
+    Children:
+      - Handle: 4512378824494572026
+      - Handle: 8270098124570445241
+      - Handle: 4542659639001338268
+      - Handle: 2968168117399231466
+      - Handle: 5467281463247562744
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 11025400120095499782
+    TagComponent:
+      Tag: well
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [2.60570502, 0, -2.20161867]
+      Rotation: [0, 0, 0]
+      Scale: [0.790000021, 0.790000021, 0.790000021]
+    StaticMeshComponent:
+      AssetID: 11646252144510758765
+      MaterialTable:
+        0: 0
+        1: 0
+        2: 0
+        3: 0
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    MeshColliderComponent:
+      UseSharedShape: false
+      Friction: 0.5
+      Restitution: 0.150000006
+      CollisionComplexity: "\x00"
+  - Entity: 11881786933469876354
+    TagComponent:
+      Tag: Point Light
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [4.34002829, 5.26487637, -2.96900725]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    PointLightComponent:
+      Radiance: [1, 1, 1]
+      Intensity: 2
+      CastShadows: true
+      SoftShadows: true
+      MinRadius: 1
+      Radius: 10
+      LightSize: 0.5
+      Falloff: 1
+  - Entity: 11942447822616460765
+    TagComponent:
+      Tag: Spot Light
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [0.371791899, 10.0135784, -3.23397613]
+      Rotation: [1.57079637, 1.13290191, 1.60705495]
+      Scale: [1, 1, 1]
+    SpotLightComponent:
+      Radiance: [1, 1, 1]
+      Angle: 60
+      AngleAttenuation: 5
+      CastsShadows: false
+      SoftShadows: false
+      Falloff: 1
+      Intensity: 10
+      Range: 10
+  - Entity: 13818095895911882926
+    TagComponent:
+      Tag: Camera
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [-7.39639521, 4.96768713, 8.66604519]
+      Rotation: [0.0501026772, -1.01038527, -3.50427931e-09]
+      Scale: [1.00000012, 1, 1]
+    CameraComponent:
+      Camera:
+        ProjectionType: 0
+        PerspectiveFOV: 40
+        PerspectiveNear: 0.100000001
+        PerspectiveFar: 1000
+        OrthographicSize: 10
+        OrthographicNear: -1
+        OrthographicFar: 1
+      Primary: true
+    AudioComponent:
+      StartEvent: Entry
+      StartCommandID: 3940594292
+      PlayOnAwake: true
+      StopIfEntityDestroyed: true
+      VolumeMultiplier: 1
+      PitchMultiplier: 1
+      AutoDestroy: false
+    AudioListenerComponent:
+      Active: true
+      ConeInnerAngle: 6.28318501
+      ConeOuterAngle: 6.28318501
+      ConeOuterGain: 0
+  - Entity: 14462892142498751220
+    TagComponent:
+      Tag: Text
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [0.288684905, 4.35152197, 2.6920054]
+      Rotation: [0, -0.785398185, 0]
+      Scale: [1, 1, 1]
+    TextComponent:
+      TextString: Play
+      FontHandle: 16616049412988725549
+      Color: [1, 1, 1, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+      ScreenSpace: false
+      DropShadow: false
+      ShadowDistance: 0
+      ShadowColor: [0, 0, 0, 1]
+  - Entity: 15234776211953804362
+    TagComponent:
+      Tag: Spot Light
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [10.9111891, 8.92750072, -0.912813544]
+      Rotation: [1.57079637, 0, 0]
+      Scale: [1, 1, 1]
+    SpotLightComponent:
+      Radiance: [1, 1, 1]
+      Angle: 60
+      AngleAttenuation: 5
+      CastsShadows: false
+      SoftShadows: false
+      Falloff: 1
+      Intensity: 10
+      Range: 10
+  - Entity: 15954825709826966831
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ScriptID: 4065613306
+      ScriptName: ParticleSystem
+      Fields:
+        - ID: 1215095166
+          Name: particle
+          Type: Prefab
+          Value: 5877591326715053326
+        - ID: 3616997371
+          Name: particleLifetime
+          Type: Float
+          Value: 2
+        - ID: 2657857831
+          Name: spawnRadius
+          Type: Float
+          Value: 5
+        - ID: 3676622707
+          Name: particleCount
+          Type: Int
+          Value: 2
+        - ID: 1376847151
+          Name: maxParticleScaleFactor
+          Type: Float
+          Value: 0.100000001
+        - ID: 1622871184
+          Name: particleSpawnForce
+          Type: Float
+          Value: 1
+        - ID: 680812437
+          Name: minParticleScaleFactor
+          Type: Float
+          Value: 0
+        - ID: 369509424
+          Name: duration
+          Type: Float
+          Value: 0
+  - Entity: 17114338457689468867
+    TagComponent:
+      Tag: Spot Light
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [0.375708461, 8.33987904, 7.711483]
+      Rotation: [1.57079637, -0.534664452, 1.60705495]
+      Scale: [1, 1, 1]
+    SpotLightComponent:
+      Radiance: [1, 1, 1]
+      Angle: 60
+      AngleAttenuation: 5
+      CastsShadows: false
+      SoftShadows: false
+      Falloff: 1
+      Intensity: 10
+      Range: 10
+  - Entity: 18240734518453214989
+    TagComponent:
+      Tag: Point Light
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [15.2806711, 8.20347118, -1.8835448]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    PointLightComponent:
+      Radiance: [1, 1, 1]
+      Intensity: 1
+      CastShadows: true
+      SoftShadows: true
+      MinRadius: 1
+      Radius: 10
+      LightSize: 0.5
+      Falloff: 1
+SceneAudio:
+  MasterReverb:
+    Pre-delay: 44
+    Room size: 0.49999994
+    Damping: 0.5
+    Width: 1

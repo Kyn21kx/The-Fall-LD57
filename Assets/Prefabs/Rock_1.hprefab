@@ -1,0 +1,44 @@
+Prefab:
+  - Entity: 931175463667316005
+    TagComponent:
+      Tag: Rock_1
+    Parent: 0
+    Children:
+      []
+    PrefabComponent:
+      Prefab: 979784447243035302
+      Entity: 931175463667316005
+    TransformComponent:
+      Position: [2.7889781, 5.7209692, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ScriptID: 1542751596
+      ScriptName: Obstacle
+      Fields:
+        []
+    StaticMeshComponent:
+      AssetID: 9239844459948925046
+      MaterialTable:
+        0: 15670425200465576765
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 1
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: true
+      IsTrigger: false
+      CollisionDetection: 1
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    SphereColliderComponent:
+      Radius: 0.800000012
+      Offset: [0, 0, 0]
+      Friction: 0.5
+      Restitution: 0.150000006

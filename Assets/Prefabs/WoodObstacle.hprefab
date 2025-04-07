@@ -1,0 +1,45 @@
+Prefab:
+  - Entity: 12627017235412471225
+    TagComponent:
+      Tag: WoodObstacle
+    Parent: 0
+    Children:
+      []
+    PrefabComponent:
+      Prefab: 9418006243215016928
+      Entity: 12627017235412471225
+    TransformComponent:
+      Position: [-3.5, 5.84121513, 0]
+      Rotation: [0, 0, 0]
+      Scale: [2.5, 2.5, 2.5]
+    ScriptComponent:
+      ScriptID: 1542751596
+      ScriptName: Obstacle
+      Fields:
+        []
+    StaticMeshComponent:
+      AssetID: 7359479042070893215
+      MaterialTable:
+        0: 0
+        1: 0
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 1
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: true
+      IsTrigger: false
+      CollisionDetection: 1
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 4
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.150000006, 0.0500000007, 0.649999976]
+      Friction: 0.5
+      Restitution: 0.150000006

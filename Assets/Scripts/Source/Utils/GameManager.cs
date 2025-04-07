@@ -17,6 +17,9 @@ public class GameManager : Entity {
 	public Entity? environmentTray;
 	public EnvironmentTray EntitySpawnTray { get; private set; }
 
+	public Entity? movingTerrain;
+	public MovingTerrain MovingTerrainRef { get; private set; }
+
 	public float GameTime { get; private set; }
 	public int GameTimeWhole => (int)this.GameTime;
 	private int m_lastSecond;
@@ -32,6 +35,7 @@ public class GameManager : Entity {
 		this.MainCamera = mainCam.GetComponent<CameraComponent>();
 		Assert.NotNull(this.environmentTray);
 		this.EntitySpawnTray = this.environmentTray.As<EnvironmentTray>();
+		this.MovingTerrainRef = this.movingTerrain.As<MovingTerrain>();
 	}
 	
 	protected override void OnUpdate(float ts) {
@@ -45,6 +49,12 @@ public class GameManager : Entity {
 	private void OnSecondTick() {
 		this.EntitySpawnTray.SpawnEnvEffects();
 		LightPickup.SpawnUpdate();
+		Obstacle.SpawnUpdate();
+
+		if (this.GameTimeWhole % 10 == 0 && this.GameTimeWhole != 0) {
+			this.EntitySpawnTray.fallingSpeed *= 1.1f;
+			this.MovingTerrainRef.fallingSpeed *= 1.1f;
+		}
 		
 	}
 	
