@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("The Fall")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6114c78e768f2c6e422321c148d7ac570915e36c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+915a76388149854d6e85e36fcec3a55cf5ffc33b")]
 [assembly: System.Reflection.AssemblyProductAttribute("The Fall")]
 [assembly: System.Reflection.AssemblyTitleAttribute("The Fall")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

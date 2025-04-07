@@ -164,8 +164,12 @@ namespace Auxiliars
 			return result;
 		}
 
+		public static int RandIntInclusiveHazel(int minValue, int maxValue) {
+			return Random.Range(minValue, maxValue + 1);
+		}
+
 		public static float RandSign() {
-			return Mathf.Sign(Random.Range(-1, 0));
+			return RandIntInclusiveHazel(-1, 0) == 0 ? 1 : -1;
 		}
 
 		public static Vector2 Perpendicular(Vector2 inDirection) {

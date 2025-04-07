@@ -3,6 +3,8 @@ using Hazel;
 
 public class ParticleSystem : Entity {
 
+	public delegate void OnParticleSystemStopFunc(ParticleSystem entity);
+
 	public Prefab particle;
 
 	public float particleLifetime;
@@ -29,13 +31,20 @@ public class ParticleSystem : Entity {
 
 	private float m_durationLeft;
 
+	private OnParticleSystemStopFunc m_onSystemStopCallback = (_) => {};
+
+
+	public void SetSystemStopCallback(OnParticleSystemStopFunc onSystemStopCallback) {
+		this.m_onSystemStopCallback = onSystemStopCallback;
+	}
+
 	protected override void OnCreate() {
 		this.MinParticleScale = new Vector3(this.minParticleScaleFactor);
 		this.MaxParticleScale = new Vector3(this.maxParticleScaleFactor);
 	}
 
 	protected override void OnUpdate(float ts) {
-		DebugRenderer.DrawCircle(this.Transform.WorldTransform.Position, this.spawnRadius, Color.White);
+		// DebugRenderer.DrawCircle(this.Transform.WorldTransform.Position, this.spawnRadius, Color.White);
 		if (!this.m_isPlaying) {
 			return;
 		}
@@ -62,6 +71,7 @@ public class ParticleSystem : Entity {
 
 	public void Stop() {
 		this.m_isPlaying = false;
+		this.m_onSystemStopCallback.Invoke(this);
 	}
 	
 }

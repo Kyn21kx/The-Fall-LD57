@@ -61,6 +61,9 @@ public class EnvironmentTray : Entity {
 		Vector3 position = new Vector3(HORIZONTAL_RANGE * -rightComponent, GameManager.Instance.Player.Translation.Y, 0f);
 		ParticleSystem pWind = this.Instantiate(this.windParticleSystemPrefab, position).As<ParticleSystem>();
 		pWind.ParticleSpawnDirection = new Vector3(rightComponent, 0f, 0f);
+		pWind.SetSystemStopCallback((instance) => {
+			instance.Destroy();	
+		});
 		// TODO: Telegraph or something
 		pWind?.Start();
 	}
