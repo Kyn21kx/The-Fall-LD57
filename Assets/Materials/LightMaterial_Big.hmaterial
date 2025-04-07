@@ -1,6 +1,6 @@
 Material:
   Transparent: false
-  AlbedoColor: [1, 0, 0]
+  AlbedoColor: [1, 1, 1]
   Emission: 5
   UseNormalMap: false
   Metalness: 0

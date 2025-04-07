@@ -1,0 +1,65 @@
+Prefab:
+  - Entity: 9841723266897168782
+    TagComponent:
+      Tag: UpperBounds
+    Parent: 7548892840823929845
+    Children:
+      []
+    PrefabComponent:
+      Prefab: 5450452261608571761
+      Entity: 9841723266897168782
+    TransformComponent:
+      Position: [0, 12, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 2294744383197145155
+    TagComponent:
+      Tag: LowerBounds
+    Parent: 7548892840823929845
+    Children:
+      []
+    PrefabComponent:
+      Prefab: 5450452261608571761
+      Entity: 2294744383197145155
+    TransformComponent:
+      Position: [0, -5, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 7548892840823929845
+    TagComponent:
+      Tag: EnvironmentTray
+    Parent: 0
+    Children:
+      - Handle: 2294744383197145155
+      - Handle: 9841723266897168782
+    PrefabComponent:
+      Prefab: 5450452261608571761
+      Entity: 7548892840823929845
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ScriptID: 1476815842
+      ScriptName: EnvironmentTray
+      Fields:
+        - ID: 1320704764
+          Name: upperBound
+          Type: Entity
+          Value: 2652944906848643503
+        - ID: 1191880265
+          Name: lowerBound
+          Type: Entity
+          Value: 8635294521789879036
+        - ID: 2628387230
+          Name: fallingSpeed
+          Type: Float
+          Value: 3
+        - ID: 412357030
+          Name: lightPickupPrefab
+          Type: Prefab
+          Value: 3327957806279281684
+        - ID: 905647349
+          Name: windParticleSystemPrefab
+          Type: Prefab
+          Value: 16113708267840421875

@@ -1,21 +1,25 @@
 Prefab:
-  - Entity: 267713025520282113
+  - Entity: 14780399431720818467
     TagComponent:
-      Tag: WindParticleSystem
+      Tag: WindParticleSystem_t
     Parent: 0
     Children:
       []
     PrefabComponent:
-      Prefab: 1779187877270444130
-      Entity: 267713025520282113
+      Prefab: 8411839208506655527
+      Entity: 14780399431720818467
     TransformComponent:
-      Position: [5.27507639, 6, 0]
+      Position: [0, 0, 0]
       Rotation: [0, 0, 0]
       Scale: [1, 1, 1]
     ScriptComponent:
       ScriptID: 4065613306
       ScriptName: ParticleSystem
       Fields:
+        - ID: 1215095166
+          Name: particle
+          Type: Prefab
+          Value: 5877591326715053326
         - ID: 3616997371
           Name: particleLifetime
           Type: Float
@@ -24,30 +28,22 @@ Prefab:
           Name: spawnRadius
           Type: Float
           Value: 5
-        - ID: 1215095166
-          Name: particle
-          Type: Prefab
-          Value: 2093969135009852932
-        - ID: 4231019786
-          Name: minParticeScale
-          Type: Vector3
-          Value: [0.0500000007, 0.0500000007]
         - ID: 3676622707
           Name: particleCount
           Type: Int
           Value: 10
-        - ID: 2854473782
-          Name: maxParticleScale
-          Type: Vector3
-          Value: [0.200000003, 0.200000003]
-        - ID: 715677682
-          Name: particleSpawnDirection
-          Type: Vector3
-          Value: [-1, 0]
+        - ID: 1376847151
+          Name: maxParticleScaleFactor
+          Type: Float
+          Value: 0.200000003
         - ID: 1622871184
           Name: particleSpawnForce
           Type: Float
           Value: 0.5
+        - ID: 680812437
+          Name: minParticleScaleFactor
+          Type: Float
+          Value: 0.0500000007
         - ID: 369509424
           Name: duration
           Type: Float

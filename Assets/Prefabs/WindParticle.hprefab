@@ -1,13 +1,13 @@
 Prefab:
-  - Entity: 10353663407172839088
+  - Entity: 15539874835125862537
     TagComponent:
       Tag: WindParticle
     Parent: 0
     Children:
       []
     PrefabComponent:
-      Prefab: 5826971552634855440
-      Entity: 10353663407172839088
+      Prefab: 5877591326715053326
+      Entity: 15539874835125862537
     TransformComponent:
       Position: [0, 0, 0]
       Rotation: [0, 0, 0]
@@ -37,3 +37,8 @@ Prefab:
       MaxLinearVelocity: 500
       MaxAngularVelocity: 50
       LockedAxes: 0
+    SphereColliderComponent:
+      Radius: 0.5
+      Offset: [0, 0, 0]
+      Friction: 0.5
+      Restitution: 0.150000006

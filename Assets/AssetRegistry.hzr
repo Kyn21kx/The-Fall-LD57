@@ -14,15 +14,9 @@ Assets:
   - Handle: 703708408826302074
     FilePath: Meshes/Default/Cube.hsmesh
     Type: StaticMesh
-  - Handle: 745411741990764342
-    FilePath: Prefabs/WindParticleSystem.hprefab
-    Type: Prefab
   - Handle: 1447668910062203688
     FilePath: Scripts/Source/Particle.cs
     Type: ScriptFile
-  - Handle: 2093969135009852932
-    FilePath: Prefabs/WindParticle.hprefab
-    Type: Prefab
   - Handle: 2552047308550805161
     FilePath: Meshes/Default/Plane.hsmesh
     Type: StaticMesh
@@ -44,9 +38,18 @@ Assets:
   - Handle: 5433185992705393124
     FilePath: Scripts/Source/Utils/SpartanMath.cs
     Type: ScriptFile
+  - Handle: 5824782110061634798
+    FilePath: Materials/LightMaterial_Big.hmaterial
+    Type: Material
+  - Handle: 5877591326715053326
+    FilePath: Prefabs/WindParticle.hprefab
+    Type: Prefab
   - Handle: 6540596003901376458
     FilePath: Scripts/Source/Player/LeafMovement.cs
     Type: ScriptFile
+  - Handle: 6816766411230482355
+    FilePath: Materials/LightMaterial_Medium.hmaterial
+    Type: Material
   - Handle: 6892748795270121745
     FilePath: Meshes/Default/Source/Cone.gltf
     Type: MeshSource
@@ -80,6 +83,12 @@ Assets:
   - Handle: 11490106066248879968
     FilePath: Meshes/Leaf.hmesh
     Type: Mesh
+  - Handle: 11847705213569694264
+    FilePath: Meshes/Tree.hsmesh
+    Type: StaticMesh
+  - Handle: 12046257623635245394
+    FilePath: Prefabs/EnvironmentTray.hprefab
+    Type: Prefab
   - Handle: 12239464833808305697
     FilePath: Animation/Leaf.hskel
     Type: Skeleton
@@ -92,6 +101,12 @@ Assets:
   - Handle: 13925815106171434320
     FilePath: Materials/WindMaterial.hmaterial
     Type: Material
+  - Handle: 14120212616653672582
+    FilePath: Models/MURO.fbx
+    Type: MeshSource
+  - Handle: 14699251563014528391
+    FilePath: Meshes/MURO.hsmesh
+    Type: StaticMesh
   - Handle: 14799791522624175028
     FilePath: Animation/ArmatureAction.001.hanim
     Type: Animation
@@ -113,6 +128,9 @@ Assets:
   - Handle: 16523483811534688004
     FilePath: Animation/ArmatureAction.001.hanim
     Type: Animation
+  - Handle: 16564070592667537167
+    FilePath: Models/Tree.fbx
+    Type: MeshSource
   - Handle: 17516609090374538864
     FilePath: Meshes/Default/Source/Capsule.gltf
     Type: MeshSource

@@ -3,6 +3,10 @@ using Auxiliars;
 
 public class LightPickup : Entity {	
 
+	// public Material smallMat;
+	// public Material mediumMat;
+	// public Material largeMat;
+
 	public int lightDurationSeconds;
 	
 	private float m_lerpBlend;
@@ -19,15 +23,33 @@ public class LightPickup : Entity {
 
 	private PointLightComponent m_lightSourceComponent;
 
+	private StaticMeshComponent m_mesh;
+
 	private const float RAND_MOVEMENT_RADIUS = 0.1f;
 		private const float PICKUP_RADIUS = 1f;
 
 	protected override void OnCreate() {
-		Assert.NotNull(this.lightComponentEntity);
 		this.m_lerpBlend = 0f;
 		this.m_originPos = this.Transform.LocalTransform.Position;
-		this.m_lightSourceComponent = this.lightComponentEntity.GetComponent<PointLightComponent>();
+		this.m_lightSourceComponent = this.Children[0].GetComponent<PointLightComponent>();
 		this.m_targetPos = this.RandLocalPosition();
+		this.lightDurationSeconds = Random.Range(3, 11);
+		this.m_lightSourceComponent.Intensity = (float)this.lightDurationSeconds * 0.01f;
+		// this.m_mesh = this.GetComponent<StaticMeshComponent>();
+		// if (this.m_mesh == null) {
+		// 	Log.Error("Could not find static mesh");
+		// 	// this.m_mesh.GetMaterial()
+		// 	return;
+		// }
+		// if (lightDurationSeconds < 5) {
+		// 	this.m_mesh.SetMaterial(0, this.smallMat);
+		// }
+		// else if (lightDurationSeconds < 7) {
+		// 	this.m_mesh.SetMaterial(0, this.mediumMat);
+		// }
+		// else {
+		// 	this.m_mesh.SetMaterial(0, this.largeMat);
+		// }
 	}
 
 	protected override void OnUpdate(float ts) {		
@@ -51,9 +73,7 @@ public class LightPickup : Entity {
 	}
 
 	public static void SpawnUpdate() {
-		if (GameManager.Instance.GameTimeWhole != 0 && GameManager.Instance.GameTimeWhole % 2 != 0) return;
-		Log.Debug("Tick");
-		bool shouldSpawn = SpartanMath.RandomChance(1, 100);
+		bool shouldSpawn = SpartanMath.RandomChance(1, 5);
 		if (shouldSpawn) {
 			Prefab prefab = GameManager.Instance.EntitySpawnTray.lightPickupPrefab;
 			GameManager.Instance.EntitySpawnTray.SpawnEntity<LightPickup>(prefab);

@@ -22,10 +22,6 @@ Entities:
           Name: playerBrightnessEntity
           Type: Entity
           Value: 6917476609853878424
-        - ID: 273414179
-          Name: windParticleSystem
-          Type: Entity
-          Value: 2296520907164420515
         - ID: 1868767196
           Name: mainCam
           Type: Entity
@@ -46,64 +42,19 @@ Entities:
       Scale: [0.99999994, 0.99999994, 1]
     MeshTagComponent:
       EntityID: 0
-  - Entity: 2296520907164420515
+  - Entity: 2065397684115426381
     TagComponent:
-      Tag: ParticleSystem
+      Tag: LightPickupHolder
     Parent: 0
     Children:
-      []
+      - Handle: 18104129798160878613
+    PrefabComponent:
+      Prefab: 3327957806279281684
+      Entity: 7675959884506430391
     TransformComponent:
-      Position: [5.27507639, 6, 0]
+      Position: [0, 6, 0]
       Rotation: [0, 0, 0]
       Scale: [1, 1, 1]
-    ScriptComponent:
-      ScriptID: 4065613306
-      ScriptName: ParticleSystem
-      Fields:
-        - ID: 3616997371
-          Name: particleLifetime
-          Type: Float
-          Value: 2
-        - ID: 2657857831
-          Name: spawnRadius
-          Type: Float
-          Value: 5
-        - ID: 1215095166
-          Name: particle
-          Type: Prefab
-          Value: 2093969135009852932
-        - ID: 4231019786
-          Name: minParticeScale
-          Type: Vector3
-          Value: [0.0500000007, 0.0500000007]
-        - ID: 3676622707
-          Name: particleCount
-          Type: Int
-          Value: 10
-        - ID: 2854473782
-          Name: maxParticleScale
-          Type: Vector3
-          Value: [0.200000003, 0.200000003]
-        - ID: 715677682
-          Name: particleSpawnDirection
-          Type: Vector3
-          Value: [-1, 0]
-        - ID: 1622871184
-          Name: particleSpawnForce
-          Type: Float
-          Value: 0.5
-        - ID: 369509424
-          Name: duration
-          Type: Float
-          Value: 3
-    RigidBody2DComponent:
-      BodyType: 2
-      FixedRotation: false
-      Mass: 1
-      LinearDrag: 0.00999999978
-      AngularDrag: 0.0500000007
-      GravityScale: 1
-      IsBullet: false
   - Entity: 2595514805943042811
     TagComponent:
       Tag: Armature
@@ -204,6 +155,28 @@ Entities:
       Scale: [1, 1, 1]
     MeshTagComponent:
       EntityID: 0
+  - Entity: 5004085448110129440
+    TagComponent:
+      Tag: Point Light
+    Parent: 18104129798160878613
+    Children:
+      []
+    PrefabComponent:
+      Prefab: 3327957806279281684
+      Entity: 6939341240087168272
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [5, 5, 5]
+    PointLightComponent:
+      Radiance: [1, 1, 1]
+      Intensity: 0.200000003
+      CastShadows: true
+      SoftShadows: true
+      MinRadius: 1
+      Radius: 10
+      LightSize: 0.5
+      Falloff: 1
   - Entity: 6134607173504613518
     TagComponent:
       Tag: Bone.005
@@ -273,16 +246,6 @@ Entities:
       MaterialTable:
         0: 8674187587940310268
       Visible: true
-  - Entity: 7321962617349384403
-    TagComponent:
-      Tag: LightPickupHolder
-    Parent: 0
-    Children:
-      - Handle: 11301722602073891816
-    TransformComponent:
-      Position: [0, 3.19579053, 0]
-      Rotation: [0, 0, 0]
-      Scale: [1, 1, 1]
   - Entity: 7523685982142766154
     TagComponent:
       Tag: Bone.017
@@ -383,38 +346,6 @@ Entities:
       Position: [0, 0, 0]
       Rotation: [0, 0, 0]
       Scale: [1, 1, 1]
-  - Entity: 11301722602073891816
-    TagComponent:
-      Tag: LightPickupVisual
-    Parent: 7321962617349384403
-    Children:
-      - Handle: 15632272576592514102
-    TransformComponent:
-      Position: [0.00280747935, 0, 0]
-      Rotation: [0, -0, 0]
-      Scale: [0.200000003, 0.200000003, 0.200000003]
-    ScriptComponent:
-      ScriptID: 1850958509
-      ScriptName: LightPickup
-      Fields:
-        - ID: 244286014
-          Name: lightDurationSeconds
-          Type: Int
-          Value: 3
-        - ID: 604540617
-          Name: lightComponentEntity
-          Type: Entity
-          Value: 15632272576592514102
-    StaticMeshComponent:
-      AssetID: 11116078761934577990
-      MaterialTable:
-        0: 4738823793593707381
-      Visible: true
-    SphereColliderComponent:
-      Radius: 0.5
-      Offset: [0, 0, 0]
-      Friction: 0.5
-      Restitution: 0.150000006
   - Entity: 12140142183551904842
     TagComponent:
       Tag: Walls
@@ -535,25 +466,6 @@ Entities:
       Scale: [15, 15, 15]
     MeshComponent:
       AssetID: 11490106066248879968
-  - Entity: 15632272576592514102
-    TagComponent:
-      Tag: Point Light
-    Parent: 11301722602073891816
-    Children:
-      []
-    TransformComponent:
-      Position: [0, 0, 0]
-      Rotation: [0, -0, 0]
-      Scale: [5, 5, 5]
-    PointLightComponent:
-      Radiance: [1, 1, 1]
-      Intensity: 0.200000003
-      CastShadows: true
-      SoftShadows: true
-      MinRadius: 1
-      Radius: 10
-      LightSize: 0.5
-      Falloff: 1
   - Entity: 15836679402004377115
     TagComponent:
       Tag: Bone.004
@@ -633,10 +545,53 @@ Entities:
           Name: lowerBound
           Type: Entity
           Value: 8635294521789879036
+        - ID: 2628387230
+          Name: fallingSpeed
+          Type: Float
+          Value: 3
         - ID: 412357030
           Name: lightPickupPrefab
           Type: Prefab
           Value: 3327957806279281684
+        - ID: 905647349
+          Name: windParticleSystemPrefab
+          Type: Prefab
+          Value: 8411839208506655527
+  - Entity: 18104129798160878613
+    TagComponent:
+      Tag: LightPickupVisual
+    Parent: 2065397684115426381
+    Children:
+      - Handle: 5004085448110129440
+    PrefabComponent:
+      Prefab: 3327957806279281684
+      Entity: 5269844890831518650
+    TransformComponent:
+      Position: [0.00280747935, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.200000003, 0.200000003, 0.200000003]
+    ScriptComponent:
+      ScriptID: 1850958509
+      ScriptName: LightPickup
+      Fields:
+        - ID: 244286014
+          Name: lightDurationSeconds
+          Type: Int
+          Value: 3
+        - ID: 604540617
+          Name: lightComponentEntity
+          Type: Entity
+          Value: 15632272576592514102
+    StaticMeshComponent:
+      AssetID: 11116078761934577990
+      MaterialTable:
+        0: 6816766411230482355
+      Visible: true
+    SphereColliderComponent:
+      Radius: 0.5
+      Offset: [0, 0, 0]
+      Friction: 0.5
+      Restitution: 0.150000006
   - Entity: 18187289884411673335
     TagComponent:
       Tag: Bone.020

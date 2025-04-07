@@ -34,7 +34,6 @@ class LeafMovement : Entity {
 	protected override void OnUpdate(float ts) {
 		if(this.m_state == EMovementState.Dashing) {
 			this.m_dashDurationTime -= ts;
-			Log.Debug($"Dash duration time: {this.m_dashDurationTime}");
 		}
 		if (this.m_dashCooldownTime > 0f) {
 			this.m_dashCooldownTime -= ts;

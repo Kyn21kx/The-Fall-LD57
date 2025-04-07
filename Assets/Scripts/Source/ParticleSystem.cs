@@ -11,13 +11,16 @@ public class ParticleSystem : Entity {
 
 	public float spawnRadius;
 
-	public Vector3 particleSpawnDirection;
+	public Vector3 ParticleSpawnDirection { get; set; }
 	
 	public float particleSpawnForce;
 	
-	public Vector3 minParticeScale;
+	public float minParticleScaleFactor;
+	public float maxParticleScaleFactor;
 	
-	public Vector3 maxParticleScale;
+	public Vector3 MinParticleScale { get; set; }
+	
+	public Vector3 MaxParticleScale { get; set; }
 
 	/// @brief How long to emit a particle for	
 	public float duration;
@@ -27,6 +30,8 @@ public class ParticleSystem : Entity {
 	private float m_durationLeft;
 
 	protected override void OnCreate() {
+		this.MinParticleScale = new Vector3(this.minParticleScaleFactor);
+		this.MaxParticleScale = new Vector3(this.maxParticleScaleFactor);
 	}
 
 	protected override void OnUpdate(float ts) {
@@ -44,9 +49,9 @@ public class ParticleSystem : Entity {
 		// Maybe cache these
 		for(int i = 0; i < particleCount * ts; i++) {
 			// Instantiate the prefab and apply the desired velocity/direction
-			Vector3 scale = SpartanMath.RandVec3(this.minParticeScale, this.maxParticleScale);
+			Vector3 scale = SpartanMath.RandVec3(this.MinParticleScale, this.MaxParticleScale);
 			Particle p = Instantiate(this.particle, this.Transform.WorldTransform.Position).As<Particle>();
-			p.Init(this.particleLifetime, this.particleSpawnDirection * this.particleSpawnForce, scale, Vector3.Zero);
+			p.Init(this.particleLifetime, this.ParticleSpawnDirection * this.particleSpawnForce, scale, Vector3.Zero);
 		}
 	}
 
