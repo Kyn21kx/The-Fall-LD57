@@ -30,18 +30,53 @@ Entities:
           Name: environmentTray
           Type: Entity
           Value: 17527637980720141259
-  - Entity: 1212966624780602724
+  - Entity: 1220113750450333522
     TagComponent:
-      Tag: Bone.006
-    Parent: 6134607173504613518
+      Tag: Bone.012
+    Parent: 15635949322007116329
     Children:
-      - Handle: 10865137330495811574
+      []
     TransformComponent:
-      Position: [-1.19209176e-09, 0.0257598944, -1.70530253e-15]
-      Rotation: [-1.29922569e-07, 3.55271368e-15, 0.420211047]
-      Scale: [0.99999994, 0.99999994, 1]
+      Position: [1.78813941e-09, 0.00681395829, -8.88178367e-17]
+      Rotation: [-1.56420015e-07, -0, 1.32517874]
+      Scale: [1, 1, 1]
     MeshTagComponent:
-      EntityID: 0
+      EntityID: 10112143870854531245
+  - Entity: 1324185755657921307
+    TagComponent:
+      Tag: MURO_1
+    Parent: 15145854080480687624
+    Children:
+      []
+    TransformComponent:
+      Position: [-11.4783459, 0, 8.19210982e-07]
+      Rotation: [0, -1.57045102, 0]
+      Scale: [0.699999928, 0.699999988, 0.699999928]
+    StaticMeshComponent:
+      AssetID: 14699251563014528391
+      MaterialTable:
+        0: 0
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    MeshColliderComponent:
+      UseSharedShape: false
+      Friction: 0.5
+      Restitution: 0.150000006
+      CollisionComplexity: "\x00"
   - Entity: 2065397684115426381
     TagComponent:
       Tag: LightPickupHolder
@@ -55,18 +90,6 @@ Entities:
       Position: [0, 6, 0]
       Rotation: [0, 0, 0]
       Scale: [1, 1, 1]
-  - Entity: 2595514805943042811
-    TagComponent:
-      Tag: Armature
-    Parent: 14786098104033786202
-    Children:
-      - Handle: 2963945116809832754
-    TransformComponent:
-      Position: [0, 0, 0]
-      Rotation: [-1.57079649, 0, 0]
-      Scale: [1, 0.99999994, 0.99999994]
-    MeshTagComponent:
-      EntityID: 0
   - Entity: 2652944906848643503
     TagComponent:
       Tag: UpperBounds
@@ -77,84 +100,118 @@ Entities:
       Position: [0, 12, 0]
       Rotation: [0, -0, 0]
       Scale: [1, 1, 1]
-  - Entity: 2963945116809832754
+  - Entity: 2837472880077462748
     TagComponent:
-      Tag: Bone
-    Parent: 2595514805943042811
+      Tag: MURO_4
+    Parent: 15145854080480687624
     Children:
-      - Handle: 4026996060388731396
-      - Handle: 6134607173504613518
-      - Handle: 16317766278501918586
-      - Handle: 13108665968505373784
-      - Handle: 4677782297016005214
-      - Handle: 4476019719583079647
-      - Handle: 9573546338039592153
+      []
     TransformComponent:
-      Position: [0, 0, -0.0477817208]
-      Rotation: [1.57079649, -0, 2.38418579e-07]
-      Scale: [1, 0.99999994, 0.99999994]
-    MeshTagComponent:
-      EntityID: 0
-  - Entity: 3322505699212156728
+      Position: [-11.4783459, 9, 8.19210982e-07]
+      Rotation: [0, -1.57045102, 0]
+      Scale: [0.699999809, 0.699999988, 0.699999809]
+    StaticMeshComponent:
+      AssetID: 14699251563014528391
+      MaterialTable:
+        0: 0
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    MeshColliderComponent:
+      UseSharedShape: false
+      Friction: 0.5
+      Restitution: 0.150000006
+      CollisionComplexity: "\x00"
+  - Entity: 2967335376019189703
     TagComponent:
-      Tag: Bone.009
-    Parent: 16317766278501918586
+      Tag: Plane
+    Parent: 14786098104033786202
     Children:
-      - Handle: 6163644078430435295
+      []
     TransformComponent:
-      Position: [-1.19209242e-09, 0.0180996358, -1.06581408e-16]
-      Rotation: [0, -0, 0.896947801]
-      Scale: [0.999999881, 0.999999881, 1]
+      Position: [-0.00253146142, -8.94069672e-08, 2.66453526e-15]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
     MeshTagComponent:
-      EntityID: 0
-  - Entity: 4026996060388731396
+      EntityID: 3597941993816828608
+    SubmeshComponent:
+      AssetID: 11490106066248879968
+      SubmeshIndex: 0
+      MaterialTable:
+        0: 8674187587940310268
+      Visible: true
+  - Entity: 4085196147861315663
     TagComponent:
       Tag: Bone.003
-    Parent: 2963945116809832754
+    Parent: 14460295761248459403
     Children:
-      - Handle: 15836679402004377115
+      - Handle: 10434370565297984508
     TransformComponent:
       Position: [0, 0.0180665012, 0]
       Rotation: [0, -0, 0]
       Scale: [1, 1, 1]
     MeshTagComponent:
-      EntityID: 0
-  - Entity: 4376497608686961619
+      EntityID: 13095849999133255305
+  - Entity: 4521626522922457044
     TagComponent:
-      Tag: Bone.014
-    Parent: 4677782297016005214
+      Tag: Bone.018
+    Parent: 7312276831790354605
     Children:
-      - Handle: 15910295057397995121
+      []
     TransformComponent:
-      Position: [2.98023856e-10, 0.0257118288, 2.13162816e-16]
-      Rotation: [0, 0, -0.441057175]
-      Scale: [0.99999994, 0.99999994, 1]
+      Position: [-1.19209265e-09, 0.0176704619, -7.1054272e-17]
+      Rotation: [-0.135114253, -0.0950331166, 0.080119282]
+      Scale: [0.99999994, 1, 1]
     MeshTagComponent:
-      EntityID: 0
-  - Entity: 4476019719583079647
+      EntityID: 1771443573024740238
+  - Entity: 4712485498240103413
     TagComponent:
-      Tag: Bone.016
-    Parent: 2963945116809832754
+      Tag: MURO_3
+    Parent: 15145854080480687624
     Children:
-      - Handle: 7523685982142766154
+      []
     TransformComponent:
-      Position: [0, 0.0180665012, 0]
-      Rotation: [1.42936031e-07, 1.37095697e-07, -1.10929322]
-      Scale: [1, 1, 1]
-    MeshTagComponent:
-      EntityID: 0
-  - Entity: 4677782297016005214
-    TagComponent:
-      Tag: Bone.013
-    Parent: 2963945116809832754
-    Children:
-      - Handle: 4376497608686961619
-    TransformComponent:
-      Position: [0, 0.0180665012, 0]
-      Rotation: [0, 0, -0.591112554]
-      Scale: [1, 1, 1]
-    MeshTagComponent:
-      EntityID: 0
+      Position: [-11.4783459, 6, 8.19210982e-07]
+      Rotation: [0, -1.57045102, 0]
+      Scale: [0.699999809, 0.699999988, 0.699999809]
+    StaticMeshComponent:
+      AssetID: 14699251563014528391
+      MaterialTable:
+        0: 0
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    MeshColliderComponent:
+      UseSharedShape: false
+      Friction: 0.5
+      Restitution: 0.150000006
+      CollisionComplexity: "\x00"
   - Entity: 5004085448110129440
     TagComponent:
       Tag: Point Light
@@ -177,30 +234,66 @@ Entities:
       Radius: 10
       LightSize: 0.5
       Falloff: 1
-  - Entity: 6134607173504613518
+  - Entity: 5123883664670717485
+    TagComponent:
+      Tag: Bone.014
+    Parent: 18263467062473206701
+    Children:
+      - Handle: 8784800329140933485
+    TransformComponent:
+      Position: [2.98023856e-10, 0.0257118288, 2.13162816e-16]
+      Rotation: [0, 0, -0.441057175]
+      Scale: [0.99999994, 0.99999994, 1]
+    MeshTagComponent:
+      EntityID: 13392735725797845205
+  - Entity: 5265328907185133981
+    TagComponent:
+      Tag: Bone.009
+    Parent: 13019496764407143388
+    Children:
+      - Handle: 7717974479974526872
+    TransformComponent:
+      Position: [-1.19209242e-09, 0.0180996358, -1.06581408e-16]
+      Rotation: [0, -0, 0.896947801]
+      Scale: [0.999999881, 0.999999881, 1]
+    MeshTagComponent:
+      EntityID: 16699916541376971567
+  - Entity: 5864653527382950455
+    TagComponent:
+      Tag: Bone.006
+    Parent: 6196873880743903888
+    Children:
+      - Handle: 7444622688903240292
+    TransformComponent:
+      Position: [-1.19209176e-09, 0.0257598944, -1.70530253e-15]
+      Rotation: [-1.29922569e-07, 3.55271368e-15, 0.420211047]
+      Scale: [0.99999994, 0.99999994, 1]
+    MeshTagComponent:
+      EntityID: 16496652887716917156
+  - Entity: 6196873880743903888
     TagComponent:
       Tag: Bone.005
-    Parent: 2963945116809832754
+    Parent: 14460295761248459403
     Children:
-      - Handle: 1212966624780602724
+      - Handle: 5864653527382950455
     TransformComponent:
       Position: [0, 0.0180665012, 0]
       Rotation: [-2.82058721e-07, -0, 0.629257023]
       Scale: [1, 1, 1]
     MeshTagComponent:
-      EntityID: 0
-  - Entity: 6163644078430435295
+      EntityID: 14981169656965410369
+  - Entity: 6294082076520929523
     TagComponent:
-      Tag: Bone.010
-    Parent: 3322505699212156728
+      Tag: Bone.020
+    Parent: 17081489863860224181
     Children:
       []
     TransformComponent:
-      Position: [4.37427852e-16, 0.0174800809, -5.68434176e-16]
-      Rotation: [-0.265346795, 0.203103483, -0.016196914]
-      Scale: [0.99999994, 0.999999881, 0.99999994]
+      Position: [7.1054272e-17, 0.00729874847, -7.1054272e-17]
+      Rotation: [3.41922174e-07, 5.74708281e-07, -1.34066689]
+      Scale: [0.99999994, 0.99999994, 1]
     MeshTagComponent:
-      EntityID: 0
+      EntityID: 17774720130025553049
   - Entity: 6917476609853878424
     TagComponent:
       Tag: PlayerBrightness
@@ -228,48 +321,77 @@ Entities:
       Radius: 10
       LightSize: 0.5
       Falloff: 1.29999995
-  - Entity: 7214434436377378954
-    TagComponent:
-      Tag: Plane
-    Parent: 14786098104033786202
-    Children:
-      []
-    TransformComponent:
-      Position: [0, 0, 0]
-      Rotation: [0, -0, 0]
-      Scale: [1, 1, 1]
-    MeshTagComponent:
-      EntityID: 0
-    SubmeshComponent:
-      AssetID: 11490106066248879968
-      SubmeshIndex: 0
-      MaterialTable:
-        0: 8674187587940310268
-      Visible: true
-  - Entity: 7523685982142766154
+  - Entity: 7312276831790354605
     TagComponent:
       Tag: Bone.017
-    Parent: 4476019719583079647
+    Parent: 16872177386381121564
     Children:
-      - Handle: 10606012646426766237
+      - Handle: 4521626522922457044
     TransformComponent:
       Position: [-1.19209254e-09, 0.0173881575, -5.68434176e-16]
       Rotation: [2.45402731e-07, 1.42108547e-14, -0.92528075]
       Scale: [1, 1, 1]
     MeshTagComponent:
-      EntityID: 0
-  - Entity: 7681419595653401053
+      EntityID: 2737366733020394596
+  - Entity: 7444622688903240292
     TagComponent:
-      Tag: Bone.012
-    Parent: 13108665968505373784
+      Tag: Bone.007
+    Parent: 5864653527382950455
     Children:
       []
     TransformComponent:
-      Position: [1.78813941e-09, 0.00681395829, -8.88178367e-17]
-      Rotation: [-1.56420015e-07, -0, 1.32517874]
+      Position: [4.47036769e-10, 0.0224549714, 6.39488435e-16]
+      Rotation: [-0.186410397, 0.121547446, 0.0298047755]
       Scale: [1, 1, 1]
     MeshTagComponent:
-      EntityID: 0
+      EntityID: 15624632042200408562
+  - Entity: 7717974479974526872
+    TagComponent:
+      Tag: Bone.010
+    Parent: 5265328907185133981
+    Children:
+      []
+    TransformComponent:
+      Position: [4.37427852e-16, 0.0174800809, -5.68434176e-16]
+      Rotation: [-0.265346795, 0.203103483, -0.016196914]
+      Scale: [0.99999994, 0.999999881, 0.99999994]
+    MeshTagComponent:
+      EntityID: 3059392204135843386
+  - Entity: 8198206369076121066
+    TagComponent:
+      Tag: MURO_0
+    Parent: 15145854080480687624
+    Children:
+      []
+    TransformComponent:
+      Position: [-11.4783459, -9, 8.19210754e-07]
+      Rotation: [0, -1.57045102, 0]
+      Scale: [0.69999963, 0.700000048, 0.69999963]
+    StaticMeshComponent:
+      AssetID: 14699251563014528391
+      MaterialTable:
+        0: 0
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    MeshColliderComponent:
+      UseSharedShape: false
+      Friction: 0.5
+      Restitution: 0.150000006
+      CollisionComplexity: "\x00"
   - Entity: 8304037554562661159
     TagComponent:
       Tag: RWall
@@ -284,7 +406,7 @@ Entities:
       AssetID: 703708408826302074
       MaterialTable:
         0: 0
-      Visible: true
+      Visible: false
     BoxColliderComponent:
       Offset: [0, 0, 0]
       HalfSize: [0.5, 0.5, 0.5]
@@ -300,42 +422,30 @@ Entities:
       Position: [0, -5, 0]
       Rotation: [0, -0, 0]
       Scale: [1, 1, 1]
-  - Entity: 9573546338039592153
+  - Entity: 8784800329140933485
     TagComponent:
-      Tag: Bone.019
-    Parent: 2963945116809832754
-    Children:
-      - Handle: 18187289884411673335
-    TransformComponent:
-      Position: [0, 0.0180665012, 0]
-      Rotation: [1.66214676e-07, -1.42108547e-14, -1.1659044]
-      Scale: [1, 1, 1]
-    MeshTagComponent:
-      EntityID: 0
-  - Entity: 10606012646426766237
-    TagComponent:
-      Tag: Bone.018
-    Parent: 7523685982142766154
+      Tag: Bone.015
+    Parent: 5123883664670717485
     Children:
       []
     TransformComponent:
-      Position: [-1.19209265e-09, 0.0176704619, -7.1054272e-17]
-      Rotation: [-0.135114253, -0.0950331166, 0.080119282]
-      Scale: [0.99999994, 1, 1]
+      Position: [2.0861628e-09, 0.0230831075, 1.19904078e-16]
+      Rotation: [-0.210748106, -0.17550917, -0.0237542111]
+      Scale: [1, 1, 0.99999994]
     MeshTagComponent:
-      EntityID: 0
-  - Entity: 10865137330495811574
+      EntityID: 42759021205970651
+  - Entity: 10434370565297984508
     TagComponent:
-      Tag: Bone.007
-    Parent: 1212966624780602724
+      Tag: Bone.004
+    Parent: 4085196147861315663
     Children:
-      []
+      - Handle: 16672157946929694019
     TransformComponent:
-      Position: [4.47036769e-10, 0.0224549714, 6.39488435e-16]
-      Rotation: [-0.186410397, 0.121547446, 0.0298047755]
+      Position: [1.64004977e-36, 0.0266975258, -7.1054272e-17]
+      Rotation: [-0.0960735083, 0, 0]
       Scale: [1, 1, 1]
     MeshTagComponent:
-      EntityID: 0
+      EntityID: 7982178335344618041
   - Entity: 11273314074004643488
     TagComponent:
       Tag: Lighting
@@ -357,18 +467,53 @@ Entities:
       Position: [0, 0, 0]
       Rotation: [0, 0, 0]
       Scale: [1, 1, 1]
-  - Entity: 13108665968505373784
+  - Entity: 13019496764407143388
     TagComponent:
-      Tag: Bone.011
-    Parent: 2963945116809832754
+      Tag: Bone.008
+    Parent: 14460295761248459403
     Children:
-      - Handle: 7681419595653401053
+      - Handle: 5265328907185133981
     TransformComponent:
       Position: [0, 0.0180665012, 0]
-      Rotation: [-2.71653903e-07, 1.46408397e-07, 1.1790961]
+      Rotation: [-3.30643729e-07, -1.42108547e-14, 1.09266436]
       Scale: [1, 1, 1]
     MeshTagComponent:
-      EntityID: 0
+      EntityID: 3101530629735772636
+  - Entity: 13451852906603421163
+    TagComponent:
+      Tag: MURO_0
+    Parent: 15145854080480687624
+    Children:
+      []
+    TransformComponent:
+      Position: [-11.4783459, -3.00000048, 8.19210754e-07]
+      Rotation: [0, -1.57045102, 0]
+      Scale: [0.69999963, 0.700000048, 0.69999963]
+    StaticMeshComponent:
+      AssetID: 14699251563014528391
+      MaterialTable:
+        0: 0
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    MeshColliderComponent:
+      UseSharedShape: false
+      Friction: 0.5
+      Restitution: 0.150000006
+      CollisionComplexity: "\x00"
   - Entity: 13650339194316899898
     TagComponent:
       Tag: Player
@@ -421,18 +566,94 @@ Entities:
       HalfSize: [0.5, 0.5, 0.5]
       Friction: 0.5
       Restitution: 0.150000006
-  - Entity: 13965996779149985344
+  - Entity: 13859959728250145097
     TagComponent:
-      Tag: Bone.021
-    Parent: 15836679402004377115
+      Tag: MURO_Top
+    Parent: 0
     Children:
       []
     TransformComponent:
-      Position: [2.11758232e-24, 0.0274515413, 5.58793532e-11]
-      Rotation: [-0.0566111058, 6.71990783e-05, 0.00214097719]
-      Scale: [1, 1, 1]
+      Position: [-11.4783459, 12, 8.19210982e-07]
+      Rotation: [0, -1.57045102, 0]
+      Scale: [0.69999975, 0.699999988, 0.69999975]
+    StaticMeshComponent:
+      AssetID: 14699251563014528391
+      MaterialTable:
+        0: 0
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    MeshColliderComponent:
+      UseSharedShape: false
+      Friction: 0.5
+      Restitution: 0.150000006
+      CollisionComplexity: "\x00"
+  - Entity: 14126538701136378183
+    TagComponent:
+      Tag: MURO_0
+    Parent: 15145854080480687624
+    Children:
+      []
+    TransformComponent:
+      Position: [-11.4783459, -6.00000048, 8.19210754e-07]
+      Rotation: [0, -1.57045102, 0]
+      Scale: [0.69999963, 0.700000048, 0.69999963]
+    StaticMeshComponent:
+      AssetID: 14699251563014528391
+      MaterialTable:
+        0: 0
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    MeshColliderComponent:
+      UseSharedShape: false
+      Friction: 0.5
+      Restitution: 0.150000006
+      CollisionComplexity: "\x00"
+  - Entity: 14460295761248459403
+    TagComponent:
+      Tag: Bone
+    Parent: 15436111035607344429
+    Children:
+      - Handle: 4085196147861315663
+      - Handle: 6196873880743903888
+      - Handle: 13019496764407143388
+      - Handle: 15635949322007116329
+      - Handle: 18263467062473206701
+      - Handle: 16872177386381121564
+      - Handle: 17081489863860224181
+    TransformComponent:
+      Position: [0, 0, -0.0477817208]
+      Rotation: [1.57079649, -0, 2.38418579e-07]
+      Scale: [1, 0.99999994, 0.99999994]
     MeshTagComponent:
-      EntityID: 0
+      EntityID: 437835311830323043
   - Entity: 14611870307315647717
     TagComponent:
       Tag: LWall
@@ -440,14 +661,14 @@ Entities:
     Children:
       []
     TransformComponent:
-      Position: [-6.5, 5.37239552, 0]
+      Position: [-6.5, 5.36999989, 0]
       Rotation: [0, -0, 0]
       Scale: [1, 8.20788002, 7.5]
     StaticMeshComponent:
       AssetID: 703708408826302074
       MaterialTable:
         0: 0
-      Visible: true
+      Visible: false
     BoxColliderComponent:
       Offset: [0, 0, 0]
       HalfSize: [0.5, 0.5, 0.5]
@@ -458,50 +679,62 @@ Entities:
       Tag: PlayerAnim
     Parent: 13650339194316899898
     Children:
-      - Handle: 2595514805943042811
-      - Handle: 7214434436377378954
+      - Handle: 15436111035607344429
+      - Handle: 2967335376019189703
     TransformComponent:
       Position: [0, 0, 0]
       Rotation: [0, -3.14159274, 0]
       Scale: [15, 15, 15]
     MeshComponent:
       AssetID: 11490106066248879968
-  - Entity: 15836679402004377115
+  - Entity: 15145854080480687624
     TagComponent:
-      Tag: Bone.004
-    Parent: 4026996060388731396
+      Tag: WellWalls
+    Parent: 0
     Children:
-      - Handle: 13965996779149985344
+      - Handle: 13451852906603421163
+      - Handle: 1324185755657921307
+      - Handle: 16602088027681080205
+      - Handle: 4712485498240103413
+      - Handle: 2837472880077462748
+      - Handle: 14126538701136378183
+      - Handle: 8198206369076121066
     TransformComponent:
-      Position: [1.64004977e-36, 0.0266975258, -7.1054272e-17]
-      Rotation: [-0.0960735083, 0, 0]
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0]
       Scale: [1, 1, 1]
-    MeshTagComponent:
-      EntityID: 0
-  - Entity: 15910295057397995121
+    ScriptComponent:
+      ScriptID: 3919092592
+      ScriptName: MovingTerrain
+      Fields:
+        - ID: 651644284
+          Name: fallingSpeed
+          Type: Float
+          Value: 3
+  - Entity: 15436111035607344429
     TagComponent:
-      Tag: Bone.015
-    Parent: 4376497608686961619
+      Tag: Armature
+    Parent: 14786098104033786202
     Children:
-      []
+      - Handle: 14460295761248459403
     TransformComponent:
-      Position: [2.0861628e-09, 0.0230831075, 1.19904078e-16]
-      Rotation: [-0.210748106, -0.17550917, -0.0237542111]
-      Scale: [1, 1, 0.99999994]
+      Position: [0, 0, 0]
+      Rotation: [-1.57079649, 0, 0]
+      Scale: [1, 0.99999994, 0.99999994]
     MeshTagComponent:
-      EntityID: 0
-  - Entity: 16317766278501918586
+      EntityID: 12827876131510248278
+  - Entity: 15635949322007116329
     TagComponent:
-      Tag: Bone.008
-    Parent: 2963945116809832754
+      Tag: Bone.011
+    Parent: 14460295761248459403
     Children:
-      - Handle: 3322505699212156728
+      - Handle: 1220113750450333522
     TransformComponent:
       Position: [0, 0.0180665012, 0]
-      Rotation: [-3.30643729e-07, -1.42108547e-14, 1.09266436]
+      Rotation: [-2.71653903e-07, 1.46408397e-07, 1.1790961]
       Scale: [1, 1, 1]
     MeshTagComponent:
-      EntityID: 0
+      EntityID: 312027027271125522
   - Entity: 16354189819541437945
     TagComponent:
       Tag: Camera
@@ -515,13 +748,84 @@ Entities:
     CameraComponent:
       Camera:
         ProjectionType: 0
-        PerspectiveFOV: 45
+        PerspectiveFOV: 60
         PerspectiveNear: 0.100000001
         PerspectiveFar: 1000
         OrthographicSize: 10
         OrthographicNear: -1
         OrthographicFar: 1
       Primary: true
+  - Entity: 16602088027681080205
+    TagComponent:
+      Tag: MURO_2
+    Parent: 15145854080480687624
+    Children:
+      []
+    TransformComponent:
+      Position: [-11.4783459, 3, 8.19210982e-07]
+      Rotation: [0, -1.57045102, 0]
+      Scale: [0.69999969, 0.699999988, 0.69999969]
+    StaticMeshComponent:
+      AssetID: 14699251563014528391
+      MaterialTable:
+        0: 0
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    MeshColliderComponent:
+      UseSharedShape: false
+      Friction: 0.5
+      Restitution: 0.150000006
+      CollisionComplexity: "\x00"
+  - Entity: 16672157946929694019
+    TagComponent:
+      Tag: Bone.021
+    Parent: 10434370565297984508
+    Children:
+      []
+    TransformComponent:
+      Position: [2.11758232e-24, 0.0274515413, 5.58793532e-11]
+      Rotation: [-0.0566111058, 6.71990783e-05, 0.00214097719]
+      Scale: [1, 1, 1]
+    MeshTagComponent:
+      EntityID: 620476592050758883
+  - Entity: 16872177386381121564
+    TagComponent:
+      Tag: Bone.016
+    Parent: 14460295761248459403
+    Children:
+      - Handle: 7312276831790354605
+    TransformComponent:
+      Position: [0, 0.0180665012, 0]
+      Rotation: [1.42936031e-07, 1.37095697e-07, -1.10929322]
+      Scale: [1, 1, 1]
+    MeshTagComponent:
+      EntityID: 7850707822312860900
+  - Entity: 17081489863860224181
+    TagComponent:
+      Tag: Bone.019
+    Parent: 14460295761248459403
+    Children:
+      - Handle: 6294082076520929523
+    TransformComponent:
+      Position: [0, 0.0180665012, 0]
+      Rotation: [1.66214676e-07, -1.42108547e-14, -1.1659044]
+      Scale: [1, 1, 1]
+    MeshTagComponent:
+      EntityID: 1314714309997558300
   - Entity: 17527637980720141259
     TagComponent:
       Tag: EnvironmentTray
@@ -577,7 +881,7 @@ Entities:
         - ID: 244286014
           Name: lightDurationSeconds
           Type: Int
-          Value: 3
+          Value: 10
         - ID: 604540617
           Name: lightComponentEntity
           Type: Entity
@@ -592,18 +896,18 @@ Entities:
       Offset: [0, 0, 0]
       Friction: 0.5
       Restitution: 0.150000006
-  - Entity: 18187289884411673335
+  - Entity: 18263467062473206701
     TagComponent:
-      Tag: Bone.020
-    Parent: 9573546338039592153
+      Tag: Bone.013
+    Parent: 14460295761248459403
     Children:
-      []
+      - Handle: 5123883664670717485
     TransformComponent:
-      Position: [7.1054272e-17, 0.00729874847, -7.1054272e-17]
-      Rotation: [3.41922174e-07, 5.74708281e-07, -1.34066689]
-      Scale: [0.99999994, 0.99999994, 1]
+      Position: [0, 0.0180665012, 0]
+      Rotation: [0, 0, -0.591112554]
+      Scale: [1, 1, 1]
     MeshTagComponent:
-      EntityID: 0
+      EntityID: 17352114401664934813
 SceneAudio:
   MasterReverb:
     Pre-delay: 44

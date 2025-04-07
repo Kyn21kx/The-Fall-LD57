@@ -17,7 +17,7 @@ class LeafMovement : Entity {
 	private const float DASH_COOLDOWN = 0.5f;
 	private float m_dashCooldownTime;
 	private float m_dashDurationTime;
-	private readonly Vector3 UPPER_BOUND = new Vector3(0f, 9f, 0f); 
+	private readonly Vector3 UPPER_BOUND = new Vector3(0f, 8f, 0f); 
 	private readonly Vector3 LOWER_BOUND = new Vector3(0f, -1f, 0f); 
 
 	private EMovementState m_state;
@@ -55,6 +55,12 @@ class LeafMovement : Entity {
 	}
 
 	private void Move(float ts) {
+		if (this.Translation.Y >= UPPER_BOUND.Y) {
+			this.m_rig.AddForce(Vector3.Down);
+		}
+		if (this.Translation.Y <= LOWER_BOUND.Y) {
+			this.m_rig.AddForce(Vector3.Up);
+		}
 		this.m_rig!.AddForce(this.m_movingDirection);
 		// Clamp the velocity magnitude
 		const float maxVelocity = 3;
