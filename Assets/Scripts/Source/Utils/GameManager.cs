@@ -22,10 +22,14 @@ public class GameManager : Entity {
 
 	public float GameTime { get; private set; }
 	public int GameTimeWhole => (int)this.GameTime;
+
+	public bool GameOver { get; private set; }
+	
 	private int m_lastSecond;
 
 	protected override void OnCreate() {
 		s_instance = this;
+		this.GameOver = false;
 		this.m_lastSecond = 0;
 		Assert.NotNull(player, "Player not set in manager!");
 		Assert.NotNull(playerBrightnessEntity, "Player brightness not set in manager!");
@@ -39,6 +43,7 @@ public class GameManager : Entity {
 	}
 	
 	protected override void OnUpdate(float ts) {
+		if (this.GameOver) return;
 		this.GameTime += ts;
 		if (this.GameTimeWhole != this.m_lastSecond) {
 			this.OnSecondTick();

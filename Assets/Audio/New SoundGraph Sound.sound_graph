@@ -1,0 +1,131 @@
+Nodes:
+  - ID: 14533843632466308816
+    Category: Base
+    Name: Wave Player
+    Color: [0.211764723, 0.811764777, 0.568627477, 1]
+    Type: Blueprint
+    Size: [0, 0]
+    Location: "{\"location\":{\"x\":808,\"y\":434}}"
+    Inputs:
+      - ID: 10010480160676465935
+        Name: Play
+        Type: Flow
+        Storage: Value
+        Value:
+          Type: Object
+          Value:
+            ClassName: TSGFlow
+            Members: ~
+      - ID: 3748233029183462359
+        Name: Stop
+        Type: Flow
+        Storage: Value
+        Value:
+          Type: Object
+          Value:
+            ClassName: TSGFlow
+            Members: ~
+      - ID: 3978591782614220464
+        Name: Wave Asset
+        Type: AudioAsset
+        Storage: Value
+        Value:
+          Type: Object
+          Value:
+            ClassName: AudioAsset
+            Value: 522165945608914147
+      - ID: 192515256944472466
+        Name: Start Time
+        Type: Float
+        Storage: Value
+        Value: {Type: float, Value: 0}
+      - ID: 3639767087731281806
+        Name: Loop
+        Type: Bool
+        Storage: Value
+        Value: {Type: bool, Value: true}
+      - ID: 2274606926770333280
+        Name: Number Of Loops
+        Type: Int
+        Storage: Value
+        Value: {Type: int, Value: -1}
+    Outputs:
+      - ID: 17219189207589600770
+        Name: On Play
+        Type: Flow
+        Storage: Value
+        Value:
+          Type: Object
+          Value:
+            ClassName: TSGFlow
+            Members: ~
+      - ID: 10108885631573055032
+        Name: On Finish
+        Type: Flow
+        Storage: Value
+        Value:
+          Type: Object
+          Value:
+            ClassName: TSGFlow
+            Members: ~
+      - ID: 16907811517271048159
+        Name: On Looped
+        Type: Flow
+        Storage: Value
+        Value:
+          Type: Object
+          Value:
+            ClassName: TSGFlow
+            Members: ~
+      - ID: 13448119080750884930
+        Name: Playback Position
+        Type: Float
+        Storage: Value
+        Value: {Type: float, Value: 0}
+      - ID: 18128302325627642178
+        Name: Out Left
+        Type: Audio
+        Storage: Value
+        Value:
+          Type: Object
+          Value:
+            ClassName: TSGAudio
+            Members:
+              Data:
+                Type: Array
+                Value:
+                  - {Type: int, Value: 0}
+      - ID: 6157211850075685474
+        Name: Out Right
+        Type: Audio
+        Storage: Value
+        Value:
+          Type: Object
+          Value:
+            ClassName: TSGAudio
+            Members:
+              Data:
+                Type: Array
+                Value:
+                  - {Type: int, Value: 0}
+Links:
+  []
+GraphInputs:
+  Type: Object
+  Value:
+    ClassName: PropertySet
+    Members: ~
+GraphOutputs:
+  Type: Object
+  Value:
+    ClassName: PropertySet
+    Members: ~
+LocalVariables:
+  Type: Object
+  Value:
+    ClassName: PropertySet
+    Members: ~
+GraphState: "{\"nodes\":{\"node:14533843632466308816\":{\"location\":{\"x\":808,\"y\":434}}},\"selection\":null,\"view\":{\"scroll\":{\"x\":438.819091796875,\"y\":196.123504638671875},\"visible_rect\":{\"max\":{\"x\":1251.819091796875,\"y\":850.12353515625},\"min\":{\"x\":438.819091796875,\"y\":196.123504638671875}},\"zoom\":1}}"
+Waves:
+  []
+CachedPrototype: ""

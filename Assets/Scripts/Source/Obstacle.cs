@@ -4,13 +4,14 @@ using Hazel;
 public class Obstacle : Entity {
 
 	private RigidBodyComponent m_rig;
-	private BoxColliderComponent m_boxCollider;
-	private SphereColliderComponent m_sphereCollider;
+	private BoxColliderComponent? m_boxCollider;
+	private SphereColliderComponent? m_sphereCollider;
 	
 
 	protected override void OnCreate() {
-		this.m_rig = this.GetComponent<RigidBodyComponent>();		
+		this.m_rig = this.GetComponent<RigidBodyComponent>();
 		this.m_rig.AddTorque(SpartanMath.RandVec3(-1f, -1f) * 9f);
+		this.m_boxCollider = this.GetComponent<BoxColliderComponent>();
 	}
 
 	protected override void OnUpdate(float ts) {
@@ -18,8 +19,8 @@ public class Obstacle : Entity {
 		
 	}
 	
-	private void DetectPlayerCollision() {
-		
+	private void DetectPlayerCollision() 
+	{
 	}
 	
 	public static void SpawnUpdate() {

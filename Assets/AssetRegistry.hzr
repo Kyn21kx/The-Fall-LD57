@@ -56,6 +56,9 @@ Assets:
   - Handle: 5433185992705393124
     FilePath: Scripts/Source/Utils/SpartanMath.cs
     Type: ScriptFile
+  - Handle: 5624220594363648067
+    FilePath: Models/plank_2.fbx
+    Type: MeshSource
   - Handle: 5824782110061634798
     FilePath: Materials/LightMaterial_Big.hmaterial
     Type: Material
@@ -95,12 +98,18 @@ Assets:
   - Handle: 9239844459948925046
     FilePath: Meshes/Rock_1.hsmesh
     Type: StaticMesh
+  - Handle: 9418006243215016928
+    FilePath: Prefabs/WoodObstacle.hprefab
+    Type: Prefab
   - Handle: 9820734265117013168
     FilePath: Meshes/Tree.hmesh
     Type: Mesh
   - Handle: 9956364012359449369
     FilePath: Scripts/Source/Utils/Assert.cs
     Type: ScriptFile
+  - Handle: 9964605955090123966
+    FilePath: Meshes/plank_2.hsmesh
+    Type: StaticMesh
   - Handle: 10775987314719402033
     FilePath: Models/well.fbx
     Type: MeshSource
@@ -131,6 +140,9 @@ Assets:
   - Handle: 12046257623635245394
     FilePath: Prefabs/EnvironmentTray.hprefab
     Type: Prefab
+  - Handle: 12139161898779546792
+    FilePath: Models/plank_1.fbx
+    Type: MeshSource
   - Handle: 12239464833808305697
     FilePath: Animation/Leaf.hskel
     Type: Skeleton
@@ -146,6 +158,9 @@ Assets:
   - Handle: 13925815106171434320
     FilePath: Materials/WindMaterial.hmaterial
     Type: Material
+  - Handle: 14072464628563985542
+    FilePath: Meshes/plank_1.hsmesh
+    Type: StaticMesh
   - Handle: 14120212616653672582
     FilePath: Models/MURO.fbx
     Type: MeshSource

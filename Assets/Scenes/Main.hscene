@@ -873,6 +873,10 @@ Entities:
           Name: obstaclePrefab
           Type: Prefab
           Value: 979784447243035302
+        - ID: 2631612497
+          Name: deathObstacle
+          Type: Prefab
+          Value: 3717783796452737248
   - Entity: 18104129798160878613
     TagComponent:
       Tag: LightPickupVisual

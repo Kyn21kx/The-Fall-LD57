@@ -14,6 +14,8 @@ public class EnvironmentTray : Entity {
 	public Prefab obstaclePrefab;
 	public Prefab woodObstaclePrefab;
 
+	public Prefab deathObstacle;
+
 	const int EXPECTED_ENTITY_COUNT = 50;
 	
 	public List<Entity> m_movingEntities = new List<Entity>(EXPECTED_ENTITY_COUNT);
@@ -40,9 +42,9 @@ public class EnvironmentTray : Entity {
 	// we will probably need to define some bounds where stuff is created
 	// and where it gets destroyed
 
-	public void SpawnEntity<T>(Prefab prefab) where T : Entity {
+	public void SpawnEntity<T>(Prefab prefab, float? horizontalPos = null) where T : Entity {
 		// Spawn it at a random point in the lower bound
-		float valueX = Random.Range(-HORIZONTAL_RANGE, HORIZONTAL_RANGE);		
+		float valueX = horizontalPos.HasValue ? horizontalPos.Value : Random.Range(-HORIZONTAL_RANGE, HORIZONTAL_RANGE);		
 		float valueY = lowerBound.Transform.WorldTransform.Position.Y;
 		Vector3 position = new Vector3(valueX, valueY, 0f);
 		Entity instance = this.Instantiate(prefab, position);	
@@ -51,7 +53,12 @@ public class EnvironmentTray : Entity {
 	}
 	
 	public void SpawnEnvEffects() {
-		this.SpawnWindEffects();	
+		this.SpawnWindEffects();
+		bool shouldSpawnPlank = SpartanMath.RandomChance(2, 7);
+		if (shouldSpawnPlank) {
+			float plankX = Random.Range(-3.0f, 5.36f);
+			this.SpawnEntity<Entity>(this.deathObstacle, plankX);		
+		}
 	}
 	
 	private void SpawnWindEffects() {
