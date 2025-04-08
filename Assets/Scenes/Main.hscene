@@ -5,9 +5,9 @@ Entities:
       Tag: GameManager
     Parent: 0
     Children:
-      []
+      - Handle: 12509954398905983072
     TransformComponent:
-      Position: [0, 0, 0]
+      Position: [-1, 8, 0]
       Rotation: [0, 0, 0]
       Scale: [1, 1, 1]
     ScriptComponent:
@@ -34,6 +34,33 @@ Entities:
           Name: environmentTray
           Type: Entity
           Value: 17527637980720141259
+        - ID: 2501094473
+          Name: replayTextEntity
+          Type: Entity
+          Value: 12509954398905983072
+        - ID: 804139971
+          Name: lightPickupMaterial
+          Type: Material
+          Value: 4738823793593707381
+        - ID: 3365754518
+          Name: mainMenuScene
+          Type: Scene
+          Value: 8395616257652539464
+        - ID: 1533505782
+          Name: gameScene
+          Type: Scene
+          Value: 15206752528554391478
+    TextComponent:
+      TextString: Light fades from us all...
+      FontHandle: 16616049412988725549
+      Color: [1, 1, 1, 0]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+      ScreenSpace: false
+      DropShadow: false
+      ShadowDistance: 0
+      ShadowColor: [0, 0, 0, 1]
   - Entity: 1220113750450333522
     TagComponent:
       Tag: Bone.012
@@ -471,6 +498,27 @@ Entities:
       Position: [0, 0, 0]
       Rotation: [0, 0, 0]
       Scale: [1, 1, 1]
+  - Entity: 12509954398905983072
+    TagComponent:
+      Tag: OtherTexts
+    Parent: 68151642004201412
+    Children:
+      []
+    TransformComponent:
+      Position: [0, -0.655438423, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.400000006, 0.400000006, 0.400000006]
+    TextComponent:
+      TextString: "Press [space] to replay\nPress [esc] to go back"
+      FontHandle: 16616049412988725549
+      Color: [1, 1, 1, 0]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+      ScreenSpace: false
+      DropShadow: false
+      ShadowDistance: 0
+      ShadowColor: [0, 0, 0, 1]
   - Entity: 13019496764407143388
     TagComponent:
       Tag: Bone.008
@@ -876,7 +924,7 @@ Entities:
         - ID: 2631612497
           Name: deathObstacle
           Type: Prefab
-          Value: 3717783796452737248
+          Value: 3776895556577242647
   - Entity: 18104129798160878613
     TagComponent:
       Tag: LightPickupVisual

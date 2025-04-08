@@ -5,6 +5,9 @@ Assets:
   - Handle: 137193633316219586
     FilePath: Scripts/Source/Utils/GameManager.cs
     Type: ScriptFile
+  - Handle: 357128917726966608
+    FilePath: Cache/Colliders/Jolt/Mesh-15450671235437190921-Complex.hmc
+    Type: MeshCollider
   - Handle: 492268788255487201
     FilePath: Scripts/Intermediates/Debug/The Fall.AssemblyInfo.cs
     Type: ScriptFile
@@ -29,21 +32,39 @@ Assets:
   - Handle: 2552047308550805161
     FilePath: Meshes/Default/Plane.hsmesh
     Type: StaticMesh
+  - Handle: 2694291056196802828
+    FilePath: Cache/Colliders/Jolt/Mesh-13181889767104016026-Complex.hmc
+    Type: MeshCollider
   - Handle: 2963720564988607425
     FilePath: Meshes/wooden plank.hmesh
     Type: Mesh
   - Handle: 3327957806279281684
     FilePath: Prefabs/LightPickupHolder.hprefab
     Type: Prefab
+  - Handle: 3357635497904757904
+    FilePath: Cache/Colliders/Jolt/Mesh-13181889767104016026-Simple.hmc
+    Type: MeshCollider
+  - Handle: 3415316445385545392
+    FilePath: Cache/Colliders/Jolt/Mesh-17621700311556675834-Simple.hmc
+    Type: MeshCollider
+  - Handle: 3717783796452737248
+    FilePath: Prefabs/DeathObstacle.hprefab
+    Type: Prefab
   - Handle: 3720882456141536086
     FilePath: Meshes/Default/Source/Cylinder.gltf
     Type: MeshSource
+  - Handle: 3776895556577242647
+    FilePath: Prefabs/DeathObstacleWithPoints.hprefab
+    Type: Prefab
   - Handle: 4216574683325326958
     FilePath: Audio/New Sound Config.hsoundc
     Type: SoundConfig
   - Handle: 4738823793593707381
     FilePath: Materials/LightMaterial.hmaterial
     Type: Material
+  - Handle: 4774858335497759634
+    FilePath: Cache/Colliders/Jolt/Mesh-15450671235437190921-Simple.hmc
+    Type: MeshCollider
   - Handle: 4879866179040818345
     FilePath: Scripts/Source/ParticleSystem.cs
     Type: ScriptFile
@@ -56,6 +77,9 @@ Assets:
   - Handle: 5433185992705393124
     FilePath: Scripts/Source/Utils/SpartanMath.cs
     Type: ScriptFile
+  - Handle: 5485819434284947263
+    FilePath: Cache/Colliders/Jolt/Mesh-7032581981505520010-Complex.hmc
+    Type: MeshCollider
   - Handle: 5624220594363648067
     FilePath: Models/plank_2.fbx
     Type: MeshSource
@@ -65,9 +89,15 @@ Assets:
   - Handle: 5877591326715053326
     FilePath: Prefabs/WindParticle.hprefab
     Type: Prefab
+  - Handle: 6072199956625372066
+    FilePath: Cache/Colliders/Jolt/Mesh-2823219279571138985-Simple.hmc
+    Type: MeshCollider
   - Handle: 6540596003901376458
     FilePath: Scripts/Source/Player/LeafMovement.cs
     Type: ScriptFile
+  - Handle: 6689132763727117788
+    FilePath: Cache/Colliders/Jolt/Mesh-6576157207946262339-Complex.hmc
+    Type: MeshCollider
   - Handle: 6816766411230482355
     FilePath: Materials/LightMaterial_Medium.hmaterial
     Type: Material
@@ -92,27 +122,42 @@ Assets:
   - Handle: 8674187587940310268
     FilePath: Materials/PlayerMaterial.hmaterial
     Type: Material
+  - Handle: 8763175643000452561
+    FilePath: Cache/Colliders/Jolt/Mesh-5368010509582905699-Complex.hmc
+    Type: MeshCollider
   - Handle: 9239470756753727593
     FilePath: Scripts/Source/LightPickup.cs
     Type: ScriptFile
   - Handle: 9239844459948925046
     FilePath: Meshes/Rock_1.hsmesh
     Type: StaticMesh
+  - Handle: 9401715251679360922
+    FilePath: Cache/Colliders/Jolt/Mesh-2823219279571138985-Complex.hmc
+    Type: MeshCollider
   - Handle: 9418006243215016928
     FilePath: Prefabs/WoodObstacle.hprefab
     Type: Prefab
   - Handle: 9820734265117013168
     FilePath: Meshes/Tree.hmesh
     Type: Mesh
+  - Handle: 9934638075697324274
+    FilePath: Scripts/Source/MainMenu.cs
+    Type: ScriptFile
   - Handle: 9956364012359449369
     FilePath: Scripts/Source/Utils/Assert.cs
     Type: ScriptFile
   - Handle: 9964605955090123966
     FilePath: Meshes/plank_2.hsmesh
     Type: StaticMesh
+  - Handle: 10408632704047515553
+    FilePath: Cache/Colliders/Jolt/Mesh-4051688442829048880-Simple.hmc
+    Type: MeshCollider
   - Handle: 10775987314719402033
     FilePath: Models/well.fbx
     Type: MeshSource
+  - Handle: 10827569858738318862
+    FilePath: Cache/Colliders/Jolt/Mesh-4051688442829048880-Complex.hmc
+    Type: MeshCollider
   - Handle: 10858584215479624304
     FilePath: Meshes/Default/Source/Torus.gltf
     Type: MeshSource
@@ -149,6 +194,9 @@ Assets:
   - Handle: 13011100778631525247
     FilePath: Models/Rock_1.fbx
     Type: MeshSource
+  - Handle: 13113751592702642128
+    FilePath: Cache/Colliders/Jolt/Mesh-7032581981505520010-Simple.hmc
+    Type: MeshCollider
   - Handle: 13156573928010320781
     FilePath: Scripts/Source/EnvironmentTray.cs
     Type: ScriptFile
@@ -182,6 +230,9 @@ Assets:
   - Handle: 15670425200465576765
     FilePath: Materials/WellMaterial.hmaterial
     Type: Material
+  - Handle: 15711550762196453111
+    FilePath: Cache/Colliders/Jolt/Mesh-5368010509582905699-Simple.hmc
+    Type: MeshCollider
   - Handle: 16023919214102369141
     FilePath: Animation/PlaneAction.hanim
     Type: Animation
@@ -206,6 +257,12 @@ Assets:
   - Handle: 16718208758500461017
     FilePath: Audio/New SoundGraph Sound.sound_graph
     Type: SoundGraphSound
+  - Handle: 16745058458196523057
+    FilePath: Cache/Colliders/Jolt/Mesh-17621700311556675834-Complex.hmc
+    Type: MeshCollider
+  - Handle: 16954521126003642453
+    FilePath: Cache/Colliders/Jolt/Mesh-6576157207946262339-Simple.hmc
+    Type: MeshCollider
   - Handle: 17127991553301399955
     FilePath: Scripts/Source/MovingTerrain.cs
     Type: ScriptFile

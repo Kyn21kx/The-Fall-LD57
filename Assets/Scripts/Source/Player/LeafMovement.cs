@@ -34,6 +34,7 @@ class LeafMovement : Entity {
 	}
 
 	protected override void OnUpdate(float ts) {
+		if (GameManager.Instance.GameOver) return;
 		if(this.m_state == EMovementState.Dashing) {
 			this.m_dashDurationTime -= ts;
 		}
@@ -44,6 +45,7 @@ class LeafMovement : Entity {
 	}
 
 	protected override void OnPhysicsUpdate(float ts) {
+		if (GameManager.Instance.GameOver) return;
 		Vector2 screenSpaceMouse = Input.GetMousePosition();
 		switch(this.m_state) {
 			case EMovementState.Normal:

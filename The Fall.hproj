@@ -8,7 +8,7 @@ Project:
   AnimationPath: Assets/Animation
   ScriptModulePath: Assets/Scripts/Binaries
   DefaultNamespace: The Fall
-  StartScene: Scenes\Main.hscene
+  StartScene: Scenes/Menu.hscene
   AutomaticallyReloadAssembly: true
   AutoSave: false
   AutoSaveInterval: 300

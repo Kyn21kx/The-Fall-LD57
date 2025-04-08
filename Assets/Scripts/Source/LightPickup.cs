@@ -52,7 +52,10 @@ public class LightPickup : Entity {
 		// }
 	}
 
-	protected override void OnUpdate(float ts) {		
+	protected override void OnUpdate(float ts) {
+		if (GameManager.Instance.GameOver) {
+			return;
+		}
 		float distance = this.m_playerT.Position.Distance(this.Transform.WorldTransform.Position);
 		if (distance < PICKUP_RADIUS) {
 			this.PlayerBrightnessRef.AddLight(this.lightDurationSeconds);

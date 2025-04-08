@@ -1,22 +1,5 @@
 Scene: Menu
 Entities:
-  - Entity: 2018268562122517167
-    TagComponent:
-      Tag: Directional Light
-    Parent: 0
-    Children:
-      []
-    TransformComponent:
-      Position: [4.47100687, 3.20303273, -12.0399075]
-      Rotation: [-2.16712928, -0.355023116, 0.92872256]
-      Scale: [1, 1, 1]
-    DirectionalLightComponent:
-      Intensity: 1
-      Radiance: [0.838709712, 0.650469124, 0.436264306]
-      CastShadows: true
-      SoftShadows: true
-      LightSize: 4.69999981
-      ShadowAmount: 1
   - Entity: 2783099959361215566
     TagComponent:
       Tag: Point Light
@@ -317,9 +300,6 @@ Entities:
       AssetID: 11646252144510758765
       MaterialTable:
         0: 0
-        1: 0
-        2: 0
-        3: 0
       Visible: true
     RigidBodyComponent:
       BodyType: 0
@@ -419,11 +399,19 @@ Entities:
     Children:
       []
     TransformComponent:
-      Position: [0.288684905, 4.35152197, 2.6920054]
+      Position: [-0.771975219, 4.35152197, 1.63134515]
       Rotation: [0, -0.785398185, 0]
       Scale: [1, 1, 1]
+    ScriptComponent:
+      ScriptID: 3217457405
+      ScriptName: MainMenu
+      Fields:
+        - ID: 1487106813
+          Name: gameScene
+          Type: Scene
+          Value: 15206752528554391478
     TextComponent:
-      TextString: Play
+      TextString: Press [space] to play
       FontHandle: 16616049412988725549
       Color: [1, 1, 1, 1]
       LineSpacing: 0

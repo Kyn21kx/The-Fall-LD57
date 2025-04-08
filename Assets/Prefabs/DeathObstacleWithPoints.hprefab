@@ -1,0 +1,229 @@
+Prefab:
+  - Entity: 6815263998886638020
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 13886369583310379141
+    Children:
+      []
+    PrefabComponent:
+      Prefab: 10541819079844576549
+      Entity: 6815263998886638020
+    TransformComponent:
+      Position: [-0.00876226835, 2.11149979, -28.4228249]
+      Rotation: [0, -1.57079637, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ScriptID: 1542751596
+      ScriptName: Obstacle
+      Fields:
+        - ID: 1640692983
+          Name: _isStatic
+          Type: Int
+          Value: 1
+        - ID: 364659930
+          Name: _isInstantDeath
+          Type: Int
+          Value: 1
+        - ID: 2620095653
+          Name: detectionRadius
+          Type: Float
+          Value: 1.29999995
+  - Entity: 78873009359176684
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 13886369583310379141
+    Children:
+      []
+    PrefabComponent:
+      Prefab: 10541819079844576549
+      Entity: 78873009359176684
+    TransformComponent:
+      Position: [-0.00860049576, 1.68481016, -24.9208794]
+      Rotation: [0, -1.57079637, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ScriptID: 1542751596
+      ScriptName: Obstacle
+      Fields:
+        - ID: 1640692983
+          Name: _isStatic
+          Type: Int
+          Value: 1
+        - ID: 364659930
+          Name: _isInstantDeath
+          Type: Int
+          Value: 1
+        - ID: 2620095653
+          Name: detectionRadius
+          Type: Float
+          Value: 1.29999995
+  - Entity: 3496859909721361568
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 13886369583310379141
+    Children:
+      []
+    PrefabComponent:
+      Prefab: 10541819079844576549
+      Entity: 3496859909721361568
+    TransformComponent:
+      Position: [-0.00787879154, 1.5, -22.8297272]
+      Rotation: [0, -1.57079637, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ScriptID: 1542751596
+      ScriptName: Obstacle
+      Fields:
+        - ID: 1640692983
+          Name: _isStatic
+          Type: Int
+          Value: 1
+        - ID: 364659930
+          Name: _isInstantDeath
+          Type: Int
+          Value: 1
+        - ID: 2620095653
+          Name: detectionRadius
+          Type: Float
+          Value: 1.29999995
+  - Entity: 13886369583310379141
+    TagComponent:
+      Tag: plank_2
+    Parent: 14454443227902596262
+    Children:
+      - Handle: 3496859909721361568
+      - Handle: 78873009359176684
+      - Handle: 6815263998886638020
+    PrefabComponent:
+      Prefab: 10541819079844576549
+      Entity: 13886369583310379141
+    TransformComponent:
+      Position: [18.5196171, 0, 2.11883844e-06]
+      Rotation: [0, 1.57045102, 0]
+      Scale: [0.99999994, 1, 0.99999994]
+    StaticMeshComponent:
+      AssetID: 9964605955090123966
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 7759504570630709006
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 3396085869825730677
+    Children:
+      []
+    PrefabComponent:
+      Prefab: 10541819079844576549
+      Entity: 7759504570630709006
+    TransformComponent:
+      Position: [-0.00362457335, 2.39614391, -10.5030403]
+      Rotation: [0, -1.57079637, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ScriptID: 1542751596
+      ScriptName: Obstacle
+      Fields:
+        - ID: 1640692983
+          Name: _isStatic
+          Type: Int
+          Value: 1
+        - ID: 364659930
+          Name: _isInstantDeath
+          Type: Int
+          Value: 1
+        - ID: 2620095653
+          Name: detectionRadius
+          Type: Float
+          Value: 1.29999995
+  - Entity: 18306201886698088686
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 3396085869825730677
+    Children:
+      []
+    PrefabComponent:
+      Prefab: 10541819079844576549
+      Entity: 18306201886698088686
+    TransformComponent:
+      Position: [-0.00442424091, 2.09804535, -12.8201885]
+      Rotation: [0, -1.57079637, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ScriptID: 1542751596
+      ScriptName: Obstacle
+      Fields:
+        - ID: 1640692983
+          Name: _isStatic
+          Type: Int
+          Value: 1
+        - ID: 364659930
+          Name: _isInstantDeath
+          Type: Int
+          Value: 1
+        - ID: 2620095653
+          Name: detectionRadius
+          Type: Float
+          Value: 1.29999995
+  - Entity: 16339581824207840869
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 3396085869825730677
+    Children:
+      []
+    PrefabComponent:
+      Prefab: 10541819079844576549
+      Entity: 16339581824207840869
+    TransformComponent:
+      Position: [-0.00517653814, 2.05804348, -15]
+      Rotation: [0, -1.57079637, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ScriptID: 1542751596
+      ScriptName: Obstacle
+      Fields:
+        - ID: 1640692983
+          Name: _isStatic
+          Type: Int
+          Value: 1
+        - ID: 364659930
+          Name: _isInstantDeath
+          Type: Int
+          Value: 1
+        - ID: 2620095653
+          Name: detectionRadius
+          Type: Float
+          Value: 1.29999995
+  - Entity: 3396085869825730677
+    TagComponent:
+      Tag: plank_1
+    Parent: 14454443227902596262
+    Children:
+      - Handle: 16339581824207840869
+      - Handle: 18306201886698088686
+      - Handle: 7759504570630709006
+    PrefabComponent:
+      Prefab: 10541819079844576549
+      Entity: 3396085869825730677
+    TransformComponent:
+      Position: [15.6083193, 0, 2.12364898e-06]
+      Rotation: [0, 1.57045102, 0]
+      Scale: [0.99999994, 1, 0.99999994]
+    StaticMeshComponent:
+      AssetID: 14072464628563985542
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 14454443227902596262
+    TagComponent:
+      Tag: DeathObstacleWithPoints
+    Parent: 0
+    Children:
+      - Handle: 3396085869825730677
+      - Handle: 13886369583310379141
+    PrefabComponent:
+      Prefab: 10541819079844576549
+      Entity: 14454443227902596262
+    TransformComponent:
+      Position: [0, 3.5289607, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]

@@ -27,6 +27,7 @@ public class EnvironmentTray : Entity {
 	}
 
 	private void MoveObjects(float ts) {
+		if (GameManager.Instance.GameOver) return;
 		this.m_movingEntities.RemoveAll((currEntity) => {
 			currEntity.Translation += Vector3.Up * ts * fallingSpeed;
 			// If the position is higher than upper bounds, delete it and remove it from the list
@@ -54,10 +55,10 @@ public class EnvironmentTray : Entity {
 	
 	public void SpawnEnvEffects() {
 		this.SpawnWindEffects();
-		bool shouldSpawnPlank = SpartanMath.RandomChance(2, 7);
+		bool shouldSpawnPlank = GameManager.Instance.GameTimeWhole % 3 == 0 && SpartanMath.RandomChance(1, 3);
 		if (shouldSpawnPlank) {
 			float plankX = Random.Range(-3.0f, 5.36f);
-			this.SpawnEntity<Entity>(this.deathObstacle, plankX);		
+			this.SpawnEntity<Entity>(this.deathObstacle, plankX);
 		}
 	}
 	

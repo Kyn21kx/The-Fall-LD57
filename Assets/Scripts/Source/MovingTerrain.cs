@@ -14,6 +14,7 @@ public class MovingTerrain : Entity {
 	}
 	
 	protected override void OnUpdate(float ts) {
+		if (GameManager.Instance.GameOver) return;
 		for(int i = 0; i < this.m_orderedWalls.Length; i++) {
 			Entity currWall = this.m_orderedWalls[i];
 			currWall.Translation += Vector3.Up * ts * fallingSpeed;
